@@ -1,0 +1,1 @@
+.This patch allows Radio Shack's.Ryan-MacFarland COBOL compiler.to operate correctly under DOSPLUS...To use, type: PATCH RSCOBOL/CMD RSCOBOL/PAT..Patches courtesy of Micro-Systems Software, Inc..A=9A4FH,F=C2F89F,C=000000A=A048H,F=CD399D,C=000000

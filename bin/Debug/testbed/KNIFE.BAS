@@ -1,0 +1,16 @@
+60000 CLEAR5110:CLS:PRINTCHR$(23)"      Knife 3.7 - (C) 1980
+        Vernon B. Hester
+
+
+           Automatic
+
+APPEND unless a key is pressed"60001 FORX=0TO100:A$=INKEY$:IFA$<>""THEN6000360002 NEXT:PRINT@576,"APPENDing utility":CLEAR50:DEFINTT:T(0)=-23510:T(1)=8768:T(2)=16576:T(3)=-5610:T(4)=24350:T(5)=11469:T(6)=-4837:T(7)=-23485:T(8)=-14016:DEFUSR0=VARPTR(T(0)):T(0)=USR(0):RUN"KN2/BAS"60003 CLS:PRINTCHR$(23)"
+
+
+
+
+
+APPENDing terminated
+
+
+":END

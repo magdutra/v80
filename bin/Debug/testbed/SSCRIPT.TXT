@@ -1,0 +1,1 @@
+.This patch allows the SCR17/CTL.module of Radio Shack's SuperSCRIPSIT.program to operate under DOSPLUS 3.5...To use, type: DO SSCRIPT..Patches courtesy of Micro-Systems Software, Inc..PATCH SCRIPSIT/CMDA=5AEFH,F=4621,C=7EB728093EFF00000000000000PATCH SCR17/CTLA=8DF8H,F='(0-3)',C='$0-$7'A=8D61H,F=34,C=38A=8F85H,F='TRSDOS',C='System'

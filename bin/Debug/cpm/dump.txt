@@ -1,0 +1,1072 @@
+35118128MD.dmk 
+VDK-80, The TRS-80 Virtual Disk Kit v1.0
+Written by Miguel Dutra (www.mdutra.com)
+Icon by Marco Martin (www.notmart.org)
+VDI=4CDMK (35:1:18,SD)
+  BLS RPT BSH BLM EXM DSM DRM AL0 AL1 CKS OFF SSZ SKF OPT
+ 1024  18   3   7   0  71  63  C0  00  16   3   0   3  00
+OSI=4CCPM (,,00)
+MOVCPM.COM  	  9472	0000/00/00	---0
+SYSGEN.COM  	  1024	0000/00/00	---0
+PIP.COM     	  7168	0000/00/00	---0
+STAT.COM    	  3072	0000/00/00	---0
+ED.COM      	  6400	0000/00/00	---0
+FORMAT.COM  	  1536	0000/00/00	---0
+COPY1D.COM  	  4864	0000/00/00	---0
+RSINIT.COM  	   128	0000/00/00	---0
+LOAD.COM    	  1792	0000/00/00	---0
+ASM.COM     	  8192	0000/00/00	---0
+SUBMIT.COM  	  1536	0000/00/00	---0
+DDT.COM     	  4864	0000/00/00	---0
+ASMB.SUB    	    53	0000/00/00	---0
+DUMP.ASM    	  4172	0000/00/00	---0
+A operação foi concluída com êxito.
+35118128SD.jv3 
+VDK-80, The TRS-80 Virtual Disk Kit v1.0
+Written by Miguel Dutra (www.mdutra.com)
+Icon by Marco Martin (www.notmart.org)
+VDI=4CJV3 (35:1:18,SD)
+  BLS RPT BSH BLM EXM DSM DRM AL0 AL1 CKS OFF SSZ SKF OPT
+ 1024  18   3   7   0  71  63  C0  00  16   3   0   3  00
+OSI=4CCPM (,,00)
+PIP.COM     	  7424	0000/00/00	---0
+SUBMIT.COM  	  1280	0000/00/00	---0
+XSUB.COM    	   768	0000/00/00	---0
+ED.COM      	  6656	0000/00/00	---0
+ASM.COM     	  8192	0000/00/00	---0
+LOAD.COM    	  1792	0000/00/00	---0
+STAT.COM    	  5248	0000/00/00	---0
+LSYSGEN.COM 	  1024	0000/00/00	---0
+DUMP.COM    	   512	0000/00/00	---0
+MSYSGEN.COM 	  1024	0000/00/00	---0
+SETUP.COM   	  1408	0000/00/00	---0
+TRSCPM.COM  	  2048	0000/00/00	---0
+OMCOPY.COM  	  1792	0000/00/00	---0
+DSKTEST.COM 	  1792	0000/00/00	---0
+MEMTEST.COM 	  3584	0000/00/00	---0
+SERIAL.COM  	  1024	0000/00/00	---0
+TERM.ASM    	   348	0000/00/00	---0
+LFORMAT.COM 	  1024	0000/00/00	---0
+MFORMAT.COM 	  1024	0000/00/00	---0
+DDT.COM     	  4864	0000/00/00	---0
+M48BOOT2.ASM	  1536	0000/00/00	---0
+M48BIOS2.ASM	  6400	0000/00/00	---0
+A operação foi concluída com êxito.
+40108512DD.dmk 
+VDK-80, The TRS-80 Virtual Disk Kit v1.0
+Written by Miguel Dutra (www.mdutra.com)
+Icon by Marco Martin (www.notmart.org)
+VDI=4CDMK (40:1:08,DD)
+  BLS RPT BSH BLM EXM DSM DRM AL0 AL1 CKS OFF SSZ SKF OPT
+ 2048  32   4  15   1  77  63  80  00  16   1   2   0  80
+OSI=4CCPM (,,00)
+COPYDISK.COM	  3200	0000/00/00	---0
+DIR.COM     	 14592	0000/00/00	---0
+PIP.COM     	  8704	0000/00/00	---0
+ERASE.COM   	  3712	0000/00/00	---0
+DATE.COM    	  2816	0000/00/00	---0
+TYPE.COM    	  3072	0000/00/00	---0
+SET.COM     	 10368	0000/00/00	---0
+SHOW.COM    	  8448	0000/00/00	---0
+SUBMIT.COM  	  5376	0000/00/00	---0
+RENAME.COM  	  2944	0000/00/00	---0
+GET.COM     	  6528	0000/00/00	---0
+PUT.COM     	  7040	0000/00/00	---0
+COPYSYS.COM 	  2560	0000/00/00	---0
+SETDEF.COM  	  4096	0000/00/00	---0
+.PRN        	     0	0000/00/00	---0
+.HEX        	     0	0000/00/00	---0
+A operação foi concluída com êxito.
+40110512DD.dmk 
+VDK-80, The TRS-80 Virtual Disk Kit v1.0
+Written by Miguel Dutra (www.mdutra.com)
+Icon by Marco Martin (www.notmart.org)
+VDI=4CDMK (40:1:10,DD)
+  BLS RPT BSH BLM EXM DSM DRM AL0 AL1 CKS OFF SSZ SKF OPT
+ 2048  40   4  15   1  99 127  C0  00  32   0   2   1  80
+OSI=4CCPM (,,00)
+DRIVER.LST  	 11136	0000/00/00	---0
+HARDRIVE.DOC	 13056	0000/00/00	---0
+HDPARK.COM  	  8960	0000/00/00	---0
+PRINT.COM   	   512	0000/00/00	---0
+NSWEEP.COM  	 12032	0000/00/00	---0
+NSWEEP.DOC  	  1536	0000/00/00	---0
+CPMFIX.COM  	   256	0000/00/00	---0
+BUILD.COM   	   384	0000/00/00	---0
+HDRS5M.COM  	  5120	0000/00/00	---0
+HDRS5X.COM  	  4480	0000/00/00	---0
+HDRS15M.COM 	  5120	0000/00/00	---0
+A operação foi concluída com êxito.
+40118128SD.dmk 
+VDK-80, The TRS-80 Virtual Disk Kit v1.0
+Written by Miguel Dutra (www.mdutra.com)
+Icon by Marco Martin (www.notmart.org)
+VDI=4CDMK (40:1:18,SD)
+  BLS RPT BSH BLM EXM DSM DRM AL0 AL1 CKS OFF SSZ SKF OPT
+ 1024  18   3   7   0  82  63  C0  00  16   3   0   3  00
+OSI=4CCPM (,,00)
+PIP.COM     	  7168	0000/00/00	---0
+MOVCPM.COM  	  8832	0000/00/00	---0
+DISKCAS.COM 	   896	0000/00/00	---0
+CASDISK.COM 	   896	0000/00/00	---0
+DCV2.COM    	  1152	0000/00/00	---0
+LOAD.COM    	  1792	0000/00/00	---0
+STAT.COM    	  3072	0000/00/00	---0
+ASM.COM     	  8192	0000/00/00	---0
+SUBMIT.COM  	  1280	0000/00/00	---0
+ED.COM      	  6400	0000/00/00	---0
+DDT.COM     	  4864	0000/00/00	---0
+SYSGEN.COM  	  1024	0000/00/00	---0
+FORMAT.COM  	   768	0000/00/00	---0
+FILECOPY.COM	  1024	0000/00/00	---0
+DUMP.ASM    	  4416	0000/00/00	---0
+COPY1D.COM  	  4864	0000/00/00	---0
+DESPOOL.COM 	  2048	0000/00/00	---0
+TERMINAL.COM	  2816	0000/00/00	---0
+A operação foi concluída com êxito.
+40218256DD.dmk 
+VDK-80, The TRS-80 Virtual Disk Kit v1.0
+Written by Miguel Dutra (www.mdutra.com)
+Icon by Marco Martin (www.notmart.org)
+VDI=4CDMK (40:2:18,DD)
+  BLS RPT BSH BLM EXM DSM DRM AL0 AL1 CKS OFF SSZ SKF OPT
+ 2048  36   4  15   1 174 127  C0  00  32   2   1   1  C0
+OSI=4CCPM (,,00)
+ASM.COM     	  8192	0000/00/00	---0
+CONFIG.COM  	 13312	0000/00/00	---0
+DDT.COM     	  4864	0000/00/00	---0
+DUMP.COM    	   512	0000/00/00	---0
+ED.COM      	  6656	0000/00/00	---0
+FORMAT.COM  	  6016	0000/00/00	---0
+INTERCHG.COM	  6144	0000/00/00	---0
+LOAD.COM    	  1792	0000/00/00	---0
+MDIR.COM    	  3072	0000/00/00	---0
+MEMLINK.COM 	  1280	0000/00/00	---0
+MODEM.COM   	  7936	0000/00/00	---0
+PIP.COM     	  7424	0000/00/00	---0
+STAT.COM    	  5248	0000/00/00	---0
+SUBMIT.COM  	  1280	0000/00/00	---0
+SYSGEN.COM  	  1664	0000/00/00	---0
+XSUB.COM    	   768	0000/00/00	---0
+MBASIC.COM  	  7936	0000/00/00	---0
+CONFIG5K.COM	 13312	0000/00/00	---0
+CONFIG4K.COM	 13312	0000/00/00	---0
+APNOTE01.DOC	  1664	0000/00/00	---0
+APNOTE03.DOC	  1664	0000/00/00	---0
+APNOTE04.DOC	  6656	0000/00/00	---0
+APNOTE05.DOC	  4736	0000/00/00	---0
+MODEM.DOC   	 15488	0000/00/00	---0
+DUMP.ASM    	  4352	0000/00/00	---0
+MODEM7T4.ASM	  4480	0000/00/00	---0
+REPORT.BUG  	  2176	0000/00/00	---0
+A operação foi concluída com êxito.
+DUMP.ASM 
+VDK-80, The TRS-80 Virtual Disk Kit v1.0
+Written by Miguel Dutra (www.mdutra.com)
+Icon by Marco Martin (www.notmart.org)
+O disco não é reconhecido. Talvez não esteja formatado.
+m1cpm141.dmk 
+VDK-80, The TRS-80 Virtual Disk Kit v1.0
+Written by Miguel Dutra (www.mdutra.com)
+Icon by Marco Martin (www.notmart.org)
+VDI=4CDMK (40:1:18,SD)
+  BLS RPT BSH BLM EXM DSM DRM AL0 AL1 CKS OFF SSZ SKF OPT
+ 1024  18   3   7   0  82  63  C0  00  16   3   0   3  00
+OSI=4CCPM (,,00)
+PIP.COM     	  7168	0000/00/00	---0
+MOVCPM.COM  	  8832	0000/00/00	---0
+DISKCAS.COM 	   896	0000/00/00	---0
+CASDISK.COM 	   896	0000/00/00	---0
+DCV2.COM    	  1152	0000/00/00	---0
+LOAD.COM    	  1792	0000/00/00	---0
+STAT.COM    	  3072	0000/00/00	---0
+ASM.COM     	  8192	0000/00/00	---0
+SUBMIT.COM  	  1280	0000/00/00	---0
+ED.COM      	  6400	0000/00/00	---0
+DDT.COM     	  4864	0000/00/00	---0
+SYSGEN.COM  	  1024	0000/00/00	---0
+FORMAT.COM  	   768	0000/00/00	---0
+FILECOPY.COM	  1024	0000/00/00	---0
+DUMP.ASM    	  4416	0000/00/00	---0
+COPY1D.COM  	  4864	0000/00/00	---0
+DESPOOL.COM 	  2048	0000/00/00	---0
+TERMINAL.COM	  2816	0000/00/00	---0
+A operação foi concluída com êxito.
+m1cpm15.dmk 
+VDK-80, The TRS-80 Virtual Disk Kit v1.0
+Written by Miguel Dutra (www.mdutra.com)
+Icon by Marco Martin (www.notmart.org)
+VDI=4CDMK (35:1:18,SD)
+  BLS RPT BSH BLM EXM DSM DRM AL0 AL1 CKS OFF SSZ SKF OPT
+ 1024  18   3   7   0  71  63  C0  00  16   3   0   3  00
+OSI=4CCPM (,,00)
+MOVCPM.COM  	  9472	0000/00/00	---0
+SYSGEN.COM  	  1024	0000/00/00	---0
+PIP.COM     	  7168	0000/00/00	---0
+STAT.COM    	  3072	0000/00/00	---0
+ED.COM      	  6400	0000/00/00	---0
+FORMAT.COM  	  1536	0000/00/00	---0
+COPY1D.COM  	  4864	0000/00/00	---0
+RSINIT.COM  	   128	0000/00/00	---0
+LOAD.COM    	  1792	0000/00/00	---0
+ASM.COM     	  8192	0000/00/00	---0
+SUBMIT.COM  	  1536	0000/00/00	---0
+DDT.COM     	  4864	0000/00/00	---0
+ASMB.SUB    	    53	0000/00/00	---0
+DUMP.ASM    	  4172	0000/00/00	---0
+A operação foi concluída com êxito.
+m4cpm10a.dmk 
+VDK-80, The TRS-80 Virtual Disk Kit v1.0
+Written by Miguel Dutra (www.mdutra.com)
+Icon by Marco Martin (www.notmart.org)
+VDI=4CDMK (40:1:08,DD)
+  BLS RPT BSH BLM EXM DSM DRM AL0 AL1 CKS OFF SSZ SKF OPT
+ 2048  32   4  15   1  77  63  80  00  16   1   2   0  80
+OSI=4CCPM (,,00)
+COPYDISK.COM	  3200	0000/00/00	---0
+DIR.COM     	 14592	0000/00/00	---0
+PIP.COM     	  8704	0000/00/00	---0
+ERASE.COM   	  3712	0000/00/00	---0
+DATE.COM    	  2816	0000/00/00	---0
+TYPE.COM    	  3072	0000/00/00	---0
+SET.COM     	 10368	0000/00/00	---0
+SHOW.COM    	  8448	0000/00/00	---0
+SUBMIT.COM  	  5376	0000/00/00	---0
+RENAME.COM  	  2944	0000/00/00	---0
+GET.COM     	  6528	0000/00/00	---0
+PUT.COM     	  7040	0000/00/00	---0
+COPYSYS.COM 	  2560	0000/00/00	---0
+SETDEF.COM  	  4096	0000/00/00	---0
+A operação foi concluída com êxito.
+m4cpm10b.dmk 
+VDK-80, The TRS-80 Virtual Disk Kit v1.0
+Written by Miguel Dutra (www.mdutra.com)
+Icon by Marco Martin (www.notmart.org)
+VDI=4CDMK (40:1:08,DD)
+  BLS RPT BSH BLM EXM DSM DRM AL0 AL1 CKS OFF SSZ SKF OPT
+ 2048  32   4  15   1  77  63  80  00  16   1   2   0  80
+OSI=4CCPM (,,00)
+COPYDISK.COM	  3200	0000/00/00	---0
+DIR.COM     	 14592	0000/00/00	---0
+PIP.COM     	  8704	0000/00/00	---0
+ERASE.COM   	  3712	0000/00/00	---0
+DATE.COM    	  2816	0000/00/00	---0
+TYPE.COM    	  3072	0000/00/00	---0
+SET.COM     	 10368	0000/00/00	---0
+SHOW.COM    	  8448	0000/00/00	---0
+SUBMIT.COM  	  5376	0000/00/00	---0
+RENAME.COM  	  2944	0000/00/00	---0
+GET.COM     	  6528	0000/00/00	---0
+PUT.COM     	  7040	0000/00/00	---0
+COPYSYS.COM 	  2560	0000/00/00	---0
+SETDEF.COM  	  4096	0000/00/00	---0
+A operação foi concluída com êxito.
+m4cpm10c.dmk 
+VDK-80, The TRS-80 Virtual Disk Kit v1.0
+Written by Miguel Dutra (www.mdutra.com)
+Icon by Marco Martin (www.notmart.org)
+VDI=4CDMK (40:1:08,DD)
+  BLS RPT BSH BLM EXM DSM DRM AL0 AL1 CKS OFF SSZ SKF OPT
+ 1024  32   3   7   0 155  63  C0  00  16   1   2   0  80
+OSI=4CCPM (,,00)
+SID.COM     	  8192	0000/00/00	---0
+SAVE.COM    	  1792	0000/00/00	---0
+ED.COM      	  9344	0000/00/00	---0
+DEVICE.COM  	  7424	0000/00/00	---0
+DIRLBL.RSX  	  1536	0000/00/00	---0
+GENCOM.COM  	 14848	0000/00/00	---0
+CPM3.LIB    	  4096	0000/00/00	---0
+LINK.COM    	 15744	0000/00/00	---0
+HEXCOM.COM  	  1152	0000/00/00	---0
+MODEBAUD.LIB	  1024	0000/00/00	---0
+PATCH.COM   	  2432	0000/00/00	---0
+RMAC.COM    	 13568	0000/00/00	---0
+MAC.COM     	 11776	0000/00/00	---0
+PORTS.LIB   	  1792	0000/00/00	---0
+LIB.COM     	  7168	0000/00/00	---0
+XREF.COM    	 15488	0000/00/00	---0
+Z80.LIB     	  6016	0000/00/00	---0
+CPMLDR.REL  	  2944	0000/00/00	---0
+TRS4PORT.LIB	  4864	0000/00/00	---0
+A operação foi concluída com êxito.
+m4cpm10d.dmk 
+VDK-80, The TRS-80 Virtual Disk Kit v1.0
+Written by Miguel Dutra (www.mdutra.com)
+Icon by Marco Martin (www.notmart.org)
+VDI=4CDMK (40:1:08,DD)
+  BLS RPT BSH BLM EXM DSM DRM AL0 AL1 CKS OFF SSZ SKF OPT
+ 2048  32   4  15   1  77  63  80  00  16   1   2   0  80
+OSI=4CCPM (,,00)
+HELP.COM    	  7168	0000/00/00	---0
+INITDIR.COM 	 15616	0000/00/00	---0
+HELP.HLP    	  2560	0000/00/00	---0
+GENCPM.COM  	  5120	0000/00/00	---0
+ASSIGN.COM  	 13824	0000/00/00	---0
+A operação foi concluída com êxito.
+m4cpm10e.dmk 
+VDK-80, The TRS-80 Virtual Disk Kit v1.0
+Written by Miguel Dutra (www.mdutra.com)
+Icon by Marco Martin (www.notmart.org)
+VDI=4CDMK (40:1:08,DD)
+  BLS RPT BSH BLM EXM DSM DRM AL0 AL1 CKS OFF SSZ SKF OPT
+ 2048  32   4  15   1  77  63  80  00  16   1   2   0  80
+OSI=4CCPM (,,00)
+COPYSYS.ASM 	 14976	0000/00/00	---0
+BOOT.ASM    	  3072	0000/00/00	---0
+BIOSKRNL.ASM	 16000	0000/00/00	---0
+CPMINIT.COM 	  2560	0000/00/00	---0
+SETUP.COM   	 15872	0000/00/00	---0
+DRVTBL.ASM  	   256	0000/00/00	---0
+FD1797SD.ASM	 10368	0000/00/00	---0
+MOVE.ASM    	   768	0000/00/00	---0
+SCB.ASM     	  2432	0000/00/00	---0
+CALLVERS.ASM	   640	0000/00/00	---0
+DUMP.ASM    	  4096	0000/00/00	---0
+ECHOVERS.ASM	   896	0000/00/00	---0
+RANDOM.ASM  	 11008	0000/00/00	---0
+COPYSYS.COM 	  1920	0000/00/00	---5
+BACKREST.COM	 14848	0000/00/00	---0
+BACKREST.001	  7552	0000/00/00	---0
+BACKREST.002	 14208	0000/00/00	---0
+BACKREST.003	 12288	0000/00/00	---0
+A operação foi concluída com êxito.
+m4cpm22132a.jv3 
+VDK-80, The TRS-80 Virtual Disk Kit v1.0
+Written by Miguel Dutra (www.mdutra.com)
+Icon by Marco Martin (www.notmart.org)
+VDI=4CJV3 (40:1:18,DD)
+  BLS RPT BSH BLM EXM DSM DRM AL0 AL1 CKS OFF SSZ SKF OPT
+ 2048  36   4  15   1  84 127  C0  00  32   2   1   1  80
+OSI=4CCPM (,,00)
+ASM.COM     	  8192	0000/00/00	---0
+CONFIG.COM  	 10240	0000/00/00	---0
+DDT.COM     	  4864	0000/00/00	---0
+DUMP.ASM    	  4352	0000/00/00	---0
+DUMP.COM    	   512	0000/00/00	---0
+ED.COM      	  6656	0000/00/00	---0
+FORMAT.COM  	  5760	0000/00/00	---0
+INTERCHG.COM	  3712	0000/00/00	---0
+LOAD.COM    	  1792	0000/00/00	---0
+MEMLINK.COM 	  1280	0000/00/00	---0
+MODEM.COM   	  7680	0000/00/00	---0
+MODEM.DOC   	 15488	0000/00/00	---0
+MODEM7T4.ASM	  4352	0000/00/00	---0
+PIP.COM     	  7424	0000/00/00	---0
+REPORT.BUG  	  2176	0000/00/00	---0
+STAT.COM    	  5248	0000/00/00	---0
+SUBMIT.COM  	  1280	0000/00/00	---0
+SYSGEN.COM  	  1664	0000/00/00	---0
+XSUB.COM    	   768	0000/00/00	---0
+NSWP.COM    	 12160	0000/00/00	---0
+.PRN        	     0	0000/00/00	---0
+.HEX        	     0	0000/00/00	---0
+.COM        	     0	0000/00/00	---0
+A operação foi concluída com êxito.
+m4cpm22132b.jv3 
+VDK-80, The TRS-80 Virtual Disk Kit v1.0
+Written by Miguel Dutra (www.mdutra.com)
+Icon by Marco Martin (www.notmart.org)
+VDI=4CJV3 (40:1:18,DD)
+  BLS RPT BSH BLM EXM DSM DRM AL0 AL1 CKS OFF SSZ SKF OPT
+ 2048  36   4  15   1  84 127  C0  00  32   2   1   1  80
+OSI=4CCPM (,,00)
+ASM.COM     	  8192	0000/00/00	---0
+CONFIG.COM  	 10240	0000/00/00	---0
+DDT.COM     	  4864	0000/00/00	---0
+DUMP.ASM    	  4352	0000/00/00	---0
+DUMP.COM    	   512	0000/00/00	---0
+ED.COM      	  6656	0000/00/00	---0
+FORMAT.COM  	  5760	0000/00/00	---0
+INTERCHG.COM	  3712	0000/00/00	---0
+LOAD.COM    	  1792	0000/00/00	---0
+MEMLINK.COM 	  1280	0000/00/00	---0
+MODEM.COM   	  7680	0000/00/00	---0
+MODEM.DOC   	 15488	0000/00/00	---0
+MODEM7T4.ASM	  4352	0000/00/00	---0
+PIP.COM     	  7424	0000/00/00	---0
+REPORT.BUG  	  2176	0000/00/00	---0
+STAT.COM    	  5248	0000/00/00	---0
+SUBMIT.COM  	  1280	0000/00/00	---0
+SYSGEN.COM  	  1664	0000/00/00	---0
+XSUB.COM    	   768	0000/00/00	---0
+A operação foi concluída com êxito.
+m4cpm22142.dmk 
+VDK-80, The TRS-80 Virtual Disk Kit v1.0
+Written by Miguel Dutra (www.mdutra.com)
+Icon by Marco Martin (www.notmart.org)
+VDI=4CDMK (40:2:18,DD)
+  BLS RPT BSH BLM EXM DSM DRM AL0 AL1 CKS OFF SSZ SKF OPT
+ 2048  36   4  15   1 174 127  C0  00  32   2   1   1  C0
+OSI=4CCPM (,,00)
+ASM.COM     	  8192	0000/00/00	---0
+CONFIG.COM  	 13312	0000/00/00	---0
+DDT.COM     	  4864	0000/00/00	---0
+DUMP.COM    	   512	0000/00/00	---0
+ED.COM      	  6656	0000/00/00	---0
+FORMAT.COM  	  6016	0000/00/00	---0
+INTERCHG.COM	  6144	0000/00/00	---0
+LOAD.COM    	  1792	0000/00/00	---0
+MDIR.COM    	  3072	0000/00/00	---0
+MEMLINK.COM 	  1280	0000/00/00	---0
+MODEM.COM   	  7936	0000/00/00	---0
+PIP.COM     	  7424	0000/00/00	---0
+STAT.COM    	  5248	0000/00/00	---0
+SUBMIT.COM  	  1280	0000/00/00	---0
+SYSGEN.COM  	  1664	0000/00/00	---0
+XSUB.COM    	   768	0000/00/00	---0
+MBASIC.COM  	  7936	0000/00/00	---0
+CONFIG5K.COM	 13312	0000/00/00	---0
+CONFIG4K.COM	 13312	0000/00/00	---0
+APNOTE01.DOC	  1664	0000/00/00	---0
+APNOTE03.DOC	  1664	0000/00/00	---0
+APNOTE04.DOC	  6656	0000/00/00	---0
+APNOTE05.DOC	  4736	0000/00/00	---0
+MODEM.DOC   	 15488	0000/00/00	---0
+DUMP.ASM    	  4352	0000/00/00	---0
+MODEM7T4.ASM	  4480	0000/00/00	---0
+REPORT.BUG  	  2176	0000/00/00	---0
+A operação foi concluída com êxito.
+m4cpm22144.dmk 
+VDK-80, The TRS-80 Virtual Disk Kit v1.0
+Written by Miguel Dutra (www.mdutra.com)
+Icon by Marco Martin (www.notmart.org)
+VDI=4CDMK (40:1:18,DD)
+  BLS RPT BSH BLM EXM DSM DRM AL0 AL1 CKS OFF SSZ SKF OPT
+ 2048  36   4  15   1  84 127  C0  00  32   2   1   1  80
+OSI=4CCPM (,,00)
+PIP.COM     	  7424	0000/00/00	---0
+CONFIG.BUG  	  2816	0000/00/00	---0
+CONFIG.COM  	 13312	0000/00/00	---0
+INT.COM     	  4224	0000/00/00	---0
+STAT.COM    	  5248	0000/00/00	---0
+SYSGEN.COM  	  1664	0000/00/00	---0
+FORMAT.COM  	  6016	0000/00/00	---0
+NSWEEP.COM  	  7424	0000/00/00	---0
+WS.COM      	 14208	0000/00/00	---0
+WSMSGS.OVR  	 10240	0000/00/00	---0
+WSOVLY1.OVR 	 11008	0000/00/00	---0
+MERGPRIN.OVR	  7936	0000/00/00	---0
+INSTALL.COM 	 15616	0000/00/00	---0
+D.COM       	  1024	0000/00/00	---0
+A operação foi concluída com êxito.
+m4cpm22220.jv3 
+VDK-80, The TRS-80 Virtual Disk Kit v1.0
+Written by Miguel Dutra (www.mdutra.com)
+Icon by Marco Martin (www.notmart.org)
+VDI=4CJV3 (40:1:18,DD)
+  BLS RPT BSH BLM EXM DSM DRM AL0 AL1 CKS OFF SSZ SKF OPT
+ 2048  36   4  15   1  84 127  C0  00  32   2   1   1  80
+OSI=4CCPM (,,00)
+CONFIG.COM  	 11520	0000/00/00	---0
+NSWEEP.COM  	  6528	0000/00/00	---0
+DUP.COM     	  6912	0000/00/00	---0
+KEYDEF.COM  	   896	0000/00/00	---0
+CREF80.COM  	  3968	0000/00/00	---0
+MDIR.COM    	  3072	0000/00/00	---0
+PIP.COM     	  7424	0000/00/00	---0
+SUBMIT.COM  	  1280	0000/00/00	---0
+A operação foi concluída com êxito.
+m4cpm22220OM.dmk 
+VDK-80, The TRS-80 Virtual Disk Kit v1.0
+Written by Miguel Dutra (www.mdutra.com)
+Icon by Marco Martin (www.notmart.org)
+VDI=4CDMK (35:1:18,SD)
+  BLS RPT BSH BLM EXM DSM DRM AL0 AL1 CKS OFF SSZ SKF OPT
+ 1024  18   3   7   0  71  63  C0  00  16   3   0   3  00
+OSI=4CCPM (,,00)
+PIP.COM     	  7424	0000/00/00	---0
+SUBMIT.COM  	  1280	0000/00/00	---0
+XSUB.COM    	   768	0000/00/00	---0
+ED.COM      	  6656	0000/00/00	---0
+ASM.COM     	  8192	0000/00/00	---0
+LOAD.COM    	  1792	0000/00/00	---0
+STAT.COM    	  5248	0000/00/00	---0
+LSYSGEN.COM 	  1024	0000/00/00	---0
+DUMP.COM    	   512	0000/00/00	---0
+MSYSGEN.COM 	  1024	0000/00/00	---0
+SETUP.COM   	  1408	0000/00/00	---0
+TRSCPM.COM  	  2048	0000/00/00	---0
+OMCOPY.COM  	  1792	0000/00/00	---0
+DSKTEST.COM 	  1792	0000/00/00	---0
+MEMTEST.COM 	  3584	0000/00/00	---0
+SERIAL.COM  	  1024	0000/00/00	---0
+TERM.ASM    	   348	0000/00/00	---0
+LFORMAT.COM 	  1024	0000/00/00	---0
+MFORMAT.COM 	  1024	0000/00/00	---0
+DDT.COM     	  4864	0000/00/00	---0
+M48BOOT2.ASM	  1536	0000/00/00	---0
+M48BIOS2.ASM	  6400	0000/00/00	---0
+A operação foi concluída com êxito.
+m4cpm22220OM.jv3 
+VDK-80, The TRS-80 Virtual Disk Kit v1.0
+Written by Miguel Dutra (www.mdutra.com)
+Icon by Marco Martin (www.notmart.org)
+VDI=4CJV3 (35:1:18,SD)
+  BLS RPT BSH BLM EXM DSM DRM AL0 AL1 CKS OFF SSZ SKF OPT
+ 1024  18   3   7   0  71  63  C0  00  16   3   0   3  00
+OSI=4CCPM (,,00)
+PIP.COM     	  7424	0000/00/00	---0
+SUBMIT.COM  	  1280	0000/00/00	---0
+XSUB.COM    	   768	0000/00/00	---0
+ED.COM      	  6656	0000/00/00	---0
+ASM.COM     	  8192	0000/00/00	---0
+LOAD.COM    	  1792	0000/00/00	---0
+STAT.COM    	  5248	0000/00/00	---0
+LSYSGEN.COM 	  1024	0000/00/00	---0
+DUMP.COM    	   512	0000/00/00	---0
+MSYSGEN.COM 	  1024	0000/00/00	---0
+SETUP.COM   	  1408	0000/00/00	---0
+TRSCPM.COM  	  2048	0000/00/00	---0
+OMCOPY.COM  	  1792	0000/00/00	---0
+DSKTEST.COM 	  1792	0000/00/00	---0
+MEMTEST.COM 	  3584	0000/00/00	---0
+SERIAL.COM  	  1024	0000/00/00	---0
+TERM.ASM    	   348	0000/00/00	---0
+LFORMAT.COM 	  1024	0000/00/00	---0
+MFORMAT.COM 	  1024	0000/00/00	---0
+DDT.COM     	  4864	0000/00/00	---0
+M48BOOT2.ASM	  1536	0000/00/00	---0
+M48BIOS2.ASM	  6400	0000/00/00	---0
+A operação foi concluída com êxito.
+m4cpm22221a.dmk 
+VDK-80, The TRS-80 Virtual Disk Kit v1.0
+Written by Miguel Dutra (www.mdutra.com)
+Icon by Marco Martin (www.notmart.org)
+VDI=4CDMK (80:2:18,DD)
+  BLS RPT BSH BLM EXM DSM DRM AL0 AL1 CKS OFF SSZ SKF OPT
+ 2048  36   4  15   0 356 127  C0  00  32   1   1   1  C0
+OSI=4CCPM (,,00)
+APNOTE08.DOC	  4096	0000/00/00	---0
+ASM.COM     	  8192	0000/00/00	---0
+CONFIG.COM  	 11648	0000/00/00	---0
+CPM64.COM   	 11264	0000/00/00	---0
+DDT.COM     	  4864	0000/00/00	---0
+DISKA.FDF   	  4736	0000/00/00	---0
+DUMP.ASM    	  4352	0000/00/00	---0
+DUMP.COM    	   512	0000/00/00	---0
+DUP.COM     	  6912	0000/00/00	---0
+ED.COM      	  6656	0000/00/00	---0
+EXBIOS.COM  	   256	0000/00/00	---0
+KEYDEF.COM  	   896	0000/00/00	---0
+LOAD.COM    	  1792	0000/00/00	---0
+MDIR.COM    	  3072	0000/00/00	---0
+MDIR.DOC    	  1920	0000/00/00	---0
+MDM730.COM  	  2304	0000/00/00	---0
+MDM730.DOC  	  3840	0000/00/00	---0
+MOVCPM.COM  	 12544	0000/00/00	---0
+PIP.COM     	  7424	0000/00/00	---0
+REPORT.BUG  	  2176	0000/00/00	---0
+STAT.COM    	  5248	0000/00/00	---0
+SUBMIT.COM  	  1280	0000/00/00	---0
+SYSGEN.COM  	  1536	0000/00/00	---0
+XSUB.COM    	   768	0000/00/00	---0
+CP4KER.DOC  	  9216	0000/00/00	---0
+CP4KER.HEX  	 13824	0000/00/00	---0
+CP4TYP.HEX  	  2432	0000/00/00	---0
+FIND.COM    	  1024	0000/00/00	---0
+M4KERMIT.COM	 14080	0000/00/00	---0
+NSWEEP.COM  	 11008	0000/00/00	---0
+SWEEP.COM   	  5120	0000/00/00	---0
+SZ.COM      	  7680	0000/00/00	---0
+DISKB.FDF   	  6912	0000/00/00	---0
+ANAGRAM.COM 	  1024	0000/00/00	---0
+LOOKUP.COM  	  1792	0000/00/00	---0
+COUNT.COM   	  1024	0000/00/00	---0
+FREQ.COM    	  2304	0000/00/00	---0
+SPELL.COM   	  3840	0000/00/00	---0
+SORT.COM    	  1536	0000/00/00	---0
+MAINDICT.CMP	 10880	0000/00/00	---0
+OWNDICT.CMP 	   256	0000/00/00	---0
+PRACTICE.LST	  2688	0000/00/00	---0
+PRACTICE.FRQ	  3456	0000/00/00	---0
+PRACTICE.DOC	  5120	0000/00/00	---0
+MBASIC.COM  	  7808	0000/00/00	---0
+TURBOMSG.OVR	  1408	0000/00/00	---0
+TURDS.OVR   	  1152	0000/00/00	---0
+TURDS.MSG   	  1536	0000/00/00	---0
+TURDS.EDT   	  2688	0000/00/00	---0
+TURDS.COM   	 14464	0000/00/00	---0
+CALENDER.PAS	  3584	0000/00/00	---0
+CALENDER.COM	 10112	0000/00/00	---0
+CALENDER.BAK	  3328	0000/00/00	---0
+DU-V77.ASM  	  9472	0000/00/00	---0
+A operação foi concluída com êxito.
+m4cpm22221b.dmk 
+VDK-80, The TRS-80 Virtual Disk Kit v1.0
+Written by Miguel Dutra (www.mdutra.com)
+Icon by Marco Martin (www.notmart.org)
+VDI=4CDMK (40:2:18,DD)
+  BLS RPT BSH BLM EXM DSM DRM AL0 AL1 CKS OFF SSZ SKF OPT
+ 2048  36   4  15   1 176 127  C0  00  32   1   1   1  C0
+OSI=4CCPM (,,00)
+BASCOM.COM  	 13056	0000/00/00	---0
+BASIC80.COM 	  7552	0000/00/00	---0
+BASLIB.REL  	 15744	0000/00/00	---0
+BASLINK.COM 	  7552	0000/00/00	---0
+BITDEMO.FOR 	   512	0000/00/00	---0
+CC.COM      	  5632	0000/00/00	---0
+CHAIN.FOR   	   384	0000/00/00	---0
+CONFIG.CBL  	  9216	0000/00/00	---0
+CONFIG.COM  	  4992	0000/00/00	---0
+CONVHEX.COM 	  2048	0000/00/00	---0
+CREF80.COM  	  3840	0000/00/00	---0
+CTRACE.ASM  	  2304	0000/00/00	---0
+D.COM       	  3072	0000/00/00	---0
+D.DOC       	  2304	0000/00/00	---0
+DIR-DUMP.COM	   768	0000/00/00	---0
+DIRCHK.COM  	  1664	0000/00/00	---0
+DIRCHK.DOC  	   512	0000/00/00	---0
+DU.COM      	  6144	0000/00/00	---0
+DU.DOC      	  5760	0000/00/00	---0
+DUMP.FOR    	   512	0000/00/00	---0
+DUMPX.COM   	  3200	0000/00/00	---0
+DUMPX.DOC   	  4352	0000/00/00	---0
+EDTKEY.COM  	  2816	0000/00/00	---0
+ERRORS.COM  	   768	0000/00/00	---0
+FINDBD54.DOC	   512	0000/00/00	---0
+FIX.COM     	 12928	0000/00/00	---0
+FIX.DOC     	   640	0000/00/00	---0
+FLIBRARY.REL	  6912	0000/00/00	---0
+FLOATLIB.ASM	 12160	0000/00/00	---0
+FMT.COM     	  5504	0000/00/00	---0
+FORT.COM    	  5888	0000/00/00	---0
+FPRINTF.C   	  7808	0000/00/00	---0
+FPRINTF.H   	   256	0000/00/00	---0
+FRUN.COM    	 16128	0000/00/00	---0
+GRAPH.FOR   	  1280	0000/00/00	---0
+LGFLTLIB.ASM	  2432	0000/00/00	---0
+LISTT.COM   	  2048	0000/00/00	---0
+LISTT.DOC   	  5120	0000/00/00	---0
+LNW.COM     	  3840	0000/00/00	---0
+LOAD.FOR    	   896	0000/00/00	---0
+LONGLIB.ASM 	  4224	0000/00/00	---0
+MAC.COM     	 11776	0000/00/00	---0
+A operação foi concluída com êxito.
+m4cpm22221c.jv3 
+VDK-80, The TRS-80 Virtual Disk Kit v1.0
+Written by Miguel Dutra (www.mdutra.com)
+Icon by Marco Martin (www.notmart.org)
+VDI=4CJV3 (40:2:18,DD)
+  BLS RPT BSH BLM EXM DSM DRM AL0 AL1 CKS OFF SSZ SKF OPT
+ 2048  36   4  15   1 176 127  C0  00  32   1   1   1  C0
+OSI=4CCPM (,,00)
+BASCOM.COM  	 13056	0000/00/00	---0
+BASIC80.COM 	  7552	0000/00/00	---0
+BASLIB.REL  	 15744	0000/00/00	---0
+BASLINK.COM 	  7552	0000/00/00	---0
+BITDEMO.FOR 	   512	0000/00/00	---0
+CC.COM      	  5632	0000/00/00	---0
+CHAIN.FOR   	   384	0000/00/00	---0
+CONFIG.CBL  	  9216	0000/00/00	---0
+CONFIG.COM  	  4992	0000/00/00	---0
+CONVHEX.COM 	  2048	0000/00/00	---0
+CREF80.COM  	  3840	0000/00/00	---0
+CTRACE.ASM  	  2304	0000/00/00	---0
+D.COM       	  3072	0000/00/00	---0
+D.DOC       	  2304	0000/00/00	---0
+DIR-DUMP.COM	   768	0000/00/00	---0
+DIRCHK.COM  	  1664	0000/00/00	---0
+DIRCHK.DOC  	   512	0000/00/00	---0
+DU.COM      	  6144	0000/00/00	---0
+DU.DOC      	  5760	0000/00/00	---0
+DUMP.FOR    	   512	0000/00/00	---0
+DUMPX.COM   	  3200	0000/00/00	---0
+DUMPX.DOC   	  4352	0000/00/00	---0
+EDTKEY.COM  	  2816	0000/00/00	---0
+ERRORS.COM  	   768	0000/00/00	---0
+FINDBD54.DOC	   512	0000/00/00	---0
+FIX.COM     	 12928	0000/00/00	---0
+FIX.DOC     	   640	0000/00/00	---0
+FLIBRARY.REL	  6912	0000/00/00	---0
+FLOATLIB.ASM	 12160	0000/00/00	---0
+FMT.COM     	  5504	0000/00/00	---0
+FORT.COM    	  5888	0000/00/00	---0
+FPRINTF.C   	  7808	0000/00/00	---0
+FPRINTF.H   	   256	0000/00/00	---0
+FRUN.COM    	 16128	0000/00/00	---0
+GRAPH.FOR   	  1280	0000/00/00	---0
+LGFLTLIB.ASM	  2432	0000/00/00	---0
+LISTT.COM   	  2048	0000/00/00	---0
+LISTT.DOC   	  5120	0000/00/00	---0
+LNW.COM     	  3840	0000/00/00	---0
+LOAD.FOR    	   896	0000/00/00	---0
+LONGLIB.ASM 	  4224	0000/00/00	---0
+MAC.COM     	 11776	0000/00/00	---0
+A operação foi concluída com êxito.
+m4cpm22221d.dmk 
+VDK-80, The TRS-80 Virtual Disk Kit v1.0
+Written by Miguel Dutra (www.mdutra.com)
+Icon by Marco Martin (www.notmart.org)
+VDI=4CDMK (40:2:18,DD)
+  BLS RPT BSH BLM EXM DSM DRM AL0 AL1 CKS OFF SSZ SKF OPT
+ 2048  36   4  15   1 176 127  C0  00  32   1   1   1  C0
+OSI=4CCPM (,,00)
+CONFIG.COM  	 11648	0000/00/00	---0
+STAT.COM    	  5248	0000/00/00	---0
+DISK.FDF    	  6912	0000/00/00	---0
+M4KERMIT.COM	 14080	0000/00/00	---0
+PIP.COM     	  7424	0000/00/00	---0
+SWEEP.COM   	  5120	0000/00/00	---0
+HEX.HEX     	  3584	0000/00/00	---0
+HEX.COM     	  1664	0000/00/00	---0
+TEST.TXT    	  5888	0000/00/00	---0
+CRAP.$$$    	     0	0000/00/00	---0
+TRANSMIT.COM	  7296	0000/00/00	---0
+TRANSMIT.EXE	   128	0000/00/00	---0
+TRANSMIT.HEX	  3840	0000/00/00	---0
+RECEIVE.HEX 	 15232	0000/00/00	---0
+RECEIVE.COM 	  5504	0000/00/00	---0
+SZ.COM      	  7680	0000/00/00	---0
+A operação foi concluída com êxito.
+m4cpm22221OM.dmk 
+VDK-80, The TRS-80 Virtual Disk Kit v1.0
+Written by Miguel Dutra (www.mdutra.com)
+Icon by Marco Martin (www.notmart.org)
+VDI=4CDMK (35:1:18,SD)
+  BLS RPT BSH BLM EXM DSM DRM AL0 AL1 CKS OFF SSZ SKF OPT
+ 1024  18   3   7   0  71  63  C0  00  16   3   0   3  00
+OSI=4CCPM (,,00)
+PIP.COM     	  7424	0000/00/00	---0
+M48BIOS2.ASM	  9344	0000/00/00	---0
+OPTIONS.COM 	  2816	0000/00/00	---0
+OMCOPY.COM  	  1792	0000/00/00	---0
+MFORMAT.COM 	  1024	0000/00/00	---0
+LFORMAT.COM 	  1024	0000/00/00	---0
+DDT.COM     	  4864	0000/00/00	---0
+MSYSGEN.COM 	  1024	0000/00/00	---0
+LSYSGEN.COM 	  1024	0000/00/00	---0
+SERIAL.COM  	  1024	0000/00/00	---0
+LOAD.COM    	  1792	0000/00/00	---0
+ED.COM      	  6656	0000/00/00	---0
+ASM.COM     	  8192	0000/00/00	---0
+DUMP.COM    	   512	0000/00/00	---0
+SUBMIT.COM  	  1280	0000/00/00	---0
+XSUB.COM    	   768	0000/00/00	---0
+STAT.COM    	  5248	0000/00/00	---0
+MEMTEST.COM 	  3584	0000/00/00	---0
+TRSCPM.COM  	  2048	0000/00/00	---0
+DSKTEST.COM 	  1920	0000/00/00	---0
+SETUP.COM   	  1408	0000/00/00	---0
+A operação foi concluída com êxito.
+m4cpm22221OM.jv3 
+VDK-80, The TRS-80 Virtual Disk Kit v1.0
+Written by Miguel Dutra (www.mdutra.com)
+Icon by Marco Martin (www.notmart.org)
+VDI=4CJV3 (35:1:18,SD)
+  BLS RPT BSH BLM EXM DSM DRM AL0 AL1 CKS OFF SSZ SKF OPT
+ 1024  18   3   7   0  71  63  C0  00  16   3   0   3  00
+OSI=4CCPM (,,00)
+PIP.COM     	  7424	0000/00/00	---0
+M48BIOS2.ASM	  9344	0000/00/00	---0
+OPTIONS.COM 	  2816	0000/00/00	---0
+OMCOPY.COM  	  1792	0000/00/00	---0
+MFORMAT.COM 	  1024	0000/00/00	---0
+LFORMAT.COM 	  1024	0000/00/00	---0
+DDT.COM     	  4864	0000/00/00	---0
+MSYSGEN.COM 	  1024	0000/00/00	---0
+LSYSGEN.COM 	  1024	0000/00/00	---0
+SERIAL.COM  	  1024	0000/00/00	---0
+LOAD.COM    	  1792	0000/00/00	---0
+ED.COM      	  6656	0000/00/00	---0
+ASM.COM     	  8192	0000/00/00	---0
+DUMP.COM    	   512	0000/00/00	---0
+SUBMIT.COM  	  1280	0000/00/00	---0
+XSUB.COM    	   768	0000/00/00	---0
+STAT.COM    	  5248	0000/00/00	---0
+MEMTEST.COM 	  3584	0000/00/00	---0
+TRSCPM.COM  	  2048	0000/00/00	---0
+DSKTEST.COM 	  1920	0000/00/00	---0
+SETUP.COM   	  1408	0000/00/00	---0
+A operação foi concluída com êxito.
+m4cpm22222.dmk 
+VDK-80, The TRS-80 Virtual Disk Kit v1.0
+Written by Miguel Dutra (www.mdutra.com)
+Icon by Marco Martin (www.notmart.org)
+VDI=4CDMK (40:1:18,DD)
+  BLS RPT BSH BLM EXM DSM DRM AL0 AL1 CKS OFF SSZ SKF OPT
+ 2048  36   4  15   1  84 127  C0  00  32   2   1   1  80
+OSI=4CCPM (,,00)
+CONFIG.COM  	 11648	0000/00/00	---0
+DISK.FDF    	  7296	0000/00/00	---0
+DUP.COM     	  6912	0000/00/00	---0
+EXBIOS.COM  	   256	0000/00/00	---0
+KEYDEF.COM  	   896	0000/00/00	---0
+PIP.COM     	  7424	0000/00/00	---0
+WIDEDIR.COM 	  3968	0000/00/00	---0
+SYSGEN.COM  	  1536	0000/00/00	---0
+AUTO.COM    	   256	0000/00/00	---0
+SYS2M.COM   	 11008	0000/00/00	---0
+NEWSWEEP.COM	 11776	0000/00/00	---0
+DIR.COM     	  1536	0000/00/00	---0
+STAT.COM    	  5248	0000/00/00	---0
+XDIR.COM    	  2304	0000/00/00	---0
+MBASIC.COM  	  7936	0000/00/00	---0
+DDT.COM     	  4864	0000/00/00	---0
+ED.COM      	  6656	0000/00/00	---0
+MOVCPM.COM  	 12544	0000/00/00	---0
+MEMLINK.COM 	  1280	0000/00/00	---0
+SUBMIT.COM  	  1280	0000/00/00	---0
+XSUB.COM    	   768	0000/00/00	---0
+ASM.COM     	  8192	0000/00/00	---0
+DUMP.ASM    	  4352	0000/00/00	---0
+DUMP.COM    	   512	0000/00/00	---0
+LOAD.COM    	  1792	0000/00/00	---0
+MDIR.COM    	  3072	0000/00/00	---0
+MDIR.DOC    	  1920	0000/00/00	---0
+A operação foi concluída com êxito.
+m4cpm22230.jv3 
+VDK-80, The TRS-80 Virtual Disk Kit v1.0
+Written by Miguel Dutra (www.mdutra.com)
+Icon by Marco Martin (www.notmart.org)
+VDI=4CJV3 (80:2:18,DD)
+  BLS RPT BSH BLM EXM DSM DRM AL0 AL1 CKS OFF SSZ SKF OPT
+ 2048  36   4  15   0 356  71  80  00  18   1   1   1  C0
+OSI=4CCPM (,,00)
+RESTART.COM 	     0	0000/00/00	---0
+CONFIG.COM  	 12928	0000/00/00	---0
+DISK.FDF    	  9728	0000/00/00	---0
+DUP.COM     	  8064	0000/00/00	---0
+EXBIOS.COM  	   256	0000/00/00	---0
+KEYDEF.COM  	   768	0000/00/00	---0
+SWEEP.COM   	 11776	0000/00/00	---0
+PIP.COM     	  7424	0000/00/00	---0
+STAT.COM    	  5248	0000/00/00	---0
+SYSGEN.COM  	  1536	0000/00/00	---0
+SUBMIT.COM  	  1280	0000/00/00	---0
+WSM.KDF     	   256	0000/00/00	---0
+EPSON.VDP   	   256	0000/00/00	---0
+MDIR.COM    	  3072	0000/00/00	---0
+MDIR.DOC    	  1920	0000/00/00	---0
+MDM730.COM  	  2304	0000/00/00	---0
+MDM730.DOC  	  3840	0000/00/00	---0
+UCRLZH.COM  	  8448	0000/00/00	---0
+UNARC.COM   	  4736	0000/00/00	---0
+VDE266.COM  	 15488	0000/00/00	---0
+TERMCAP.SYS 	   256	0000/00/00	---0
+VDE266.DOC  	  2688	0000/00/00	---0
+VDE266.QRF  	  2816	0000/00/00	---0
+VDE266.UPD  	  2304	0000/00/00	---0
+VDM266.COM  	 15360	0000/00/00	---0
+VINST266.COM	 10112	0000/00/00	---0
+CONFIG.TXT  	  2944	0000/00/00	---0
+DUU.COM     	  6912	0000/00/00	---0
+FIND.COM    	  1408	0000/00/00	---0
+FINDBD.COM  	  1664	0000/00/00	---0
+MOVCPM.COM  	 12544	0000/00/00	---0
+NULU.COM    	 14336	0000/00/00	---0
+SD.COM      	  3584	0000/00/00	---0
+SZ.COM      	  7680	0000/00/00	---0
+UNERASE.COM 	   896	0000/00/00	---0
+WORDCNT.COM 	  6144	0000/00/00	---0
+VINST266.DOC	  9856	0000/00/00	---0
+MISC.ARK    	  2176	0000/00/00	---0
+SMPSQZPR.COM	   768	0000/00/00	---0
+TANDY4.DEF  	  1280	0000/00/00	---0
+RCONFIG.SUB 	   128	0000/00/00	---0
+TERMDEF.COM 	  4096	0000/00/00	---0
+TERMGEN.COM 	  4608	0000/00/00	---0
+TERMINAL.DEF	  1408	0000/00/00	---0
+ARK.COM     	  9088	0000/00/00	---0
+ARKDATE.COM 	   256	0000/00/00	---0
+CRUNCH.COM  	  5888	0000/00/00	---0
+WORDFREQ.COM	  2560	0000/00/00	---0
+WORDS.COM   	   512	0000/00/00	---0
+ADM3A.DEF   	   768	0000/00/00	---0
+DBLCROSS.COM	  5888	0000/00/00	---0
+DDT.COM     	  4864	0000/00/00	---0
+DUMP.COM    	   512	0000/00/00	---0
+Z8E.COM     	 11648	0000/00/00	---0
+FILEFIX.COM 	 12800	0000/00/00	---0
+AUTO.COM    	   256	0000/00/00	---0
+CAT.COM     	   768	0000/00/00	---0
+CAT2.COM    	   640	0000/00/00	---0
+CPMLIB.DOC  	  4864	0000/00/00	---0
+CTYPE.COM   	   768	0000/00/00	---0
+A operação foi concluída com êxito.
+m4cpm22231a.dmk 
+VDK-80, The TRS-80 Virtual Disk Kit v1.0
+Written by Miguel Dutra (www.mdutra.com)
+Icon by Marco Martin (www.notmart.org)
+VDI=4CDMK (40:1:18,DD)
+  BLS RPT BSH BLM EXM DSM DRM AL0 AL1 CKS OFF SSZ SKF OPT
+ 2048  36   4  15   1  84 127  C0  00  32   2   1   1  80
+OSI=4CCPM (,,00)
+ASM.COM     	  8192	0000/00/00	---0
+CONFIG.COM  	 12928	0000/00/00	---0
+DDT.COM     	  4864	0000/00/00	---0
+DISK.FDF    	  9984	0000/00/00	---0
+DUMP.ASM    	  4352	0000/00/00	---0
+DUMP.COM    	   512	0000/00/00	---0
+DUP.COM     	  8064	0000/00/00	---0
+ED.COM      	  6656	0000/00/00	---0
+EXBIOS.COM  	   256	0000/00/00	---0
+KEYDEF.COM  	   768	0000/00/00	---0
+LOAD.COM    	  1792	0000/00/00	---0
+MDIR.COM    	  3072	0000/00/00	---0
+MDIR.DOC    	  1920	0000/00/00	---0
+MDM730.COM  	  2304	0000/00/00	---0
+MDM730.DOC  	  3840	0000/00/00	---0
+MOVCPM.COM  	 12544	0000/00/00	---0
+PIP.COM     	  7424	0000/00/00	---0
+REPORT.BUG  	  2176	0000/00/00	---0
+STAT.COM    	  5248	0000/00/00	---0
+SUBMIT.COM  	  1280	0000/00/00	---0
+SYSGEN.COM  	  1536	0000/00/00	---0
+XSUB.COM    	   768	0000/00/00	---0
+A operação foi concluída com êxito.
+m4cpm22231b.dmk 
+VDK-80, The TRS-80 Virtual Disk Kit v1.0
+Written by Miguel Dutra (www.mdutra.com)
+Icon by Marco Martin (www.notmart.org)
+VDI=4CDMK (40:1:10,DD)
+  BLS RPT BSH BLM EXM DSM DRM AL0 AL1 CKS OFF SSZ SKF OPT
+ 2048  40   4  15   1  99 127  C0  00  32   0   2   1  80
+OSI=4CCPM (,,00)
+DRIVER.LST  	 11136	0000/00/00	---0
+HARDRIVE.DOC	 13056	0000/00/00	---0
+HDPARK.COM  	  8960	0000/00/00	---0
+PRINT.COM   	   512	0000/00/00	---0
+NSWEEP.COM  	 12032	0000/00/00	---0
+NSWEEP.DOC  	  1536	0000/00/00	---0
+CPMFIX.COM  	   256	0000/00/00	---0
+BUILD.COM   	   384	0000/00/00	---0
+HDRS5M.COM  	  5120	0000/00/00	---0
+HDRS5X.COM  	  4480	0000/00/00	---0
+HDRS15M.COM 	  5120	0000/00/00	---0
+A operação foi concluída com êxito.
+m4cpm22231c.dmk 
+VDK-80, The TRS-80 Virtual Disk Kit v1.0
+Written by Miguel Dutra (www.mdutra.com)
+Icon by Marco Martin (www.notmart.org)
+VDI=4CDMK (40:1:18,DD)
+  BLS RPT BSH BLM EXM DSM DRM AL0 AL1 CKS OFF SSZ SKF OPT
+ 2048  36   4  15   1  84 127  C0  00  32   2   1   1  80
+OSI=4CCPM (,,00)
+AUTO.COM    	   256	0000/00/00	---0
+DBLCROSS.COM	  6016	0000/00/00	---0
+FILEFIX.COM 	 12800	0000/00/00	---0
+FREEFORM.COM	  1152	0000/00/00	---0
+MANUAL.TXT  	  1536	0000/00/00	---0
+SYS2M.COM   	 11008	0000/00/00	---0
+WSPR.COM    	 16000	0000/00/00	---0
+A operação foi concluída com êxito.
+m4cpm22231d.dmk 
+VDK-80, The TRS-80 Virtual Disk Kit v1.0
+Written by Miguel Dutra (www.mdutra.com)
+Icon by Marco Martin (www.notmart.org)
+VDI=4CDMK (40:1:18,DD)
+  BLS RPT BSH BLM EXM DSM DRM AL0 AL1 CKS OFF SSZ SKF OPT
+ 1024  36   3   7   0 170 127  F0  00  32   2   1   1  80
+OSI=4CCPM (,,00)
+MANUAL.TXT  	  3456	0000/00/00	---0
+MW.COM      	 11264	0000/00/00	---0
+PRINTDOC.COM	  9088	0000/00/00	---0
+A operação foi concluída com êxito.
+m4cpm22232a.jv3 
+VDK-80, The TRS-80 Virtual Disk Kit v1.0
+Written by Miguel Dutra (www.mdutra.com)
+Icon by Marco Martin (www.notmart.org)
+VDI=4CJV3 (40:1:18,DD)
+  BLS RPT BSH BLM EXM DSM DRM AL0 AL1 CKS OFF SSZ SKF OPT
+ 2048  36   4  15   1  84 127  C0  00  32   2   1   1  80
+OSI=4CCPM (,,00)
+ASM.COM     	  8192	0000/00/00	---0
+CONFIG.COM  	 12928	0000/00/00	---0
+DDT.COM     	  4864	0000/00/00	---0
+DISK.FDF    	 10752	0000/00/00	---0
+DUMP.ASM    	  4352	0000/00/00	---0
+DUMP.COM    	   512	0000/00/00	---0
+DUP.COM     	  8064	0000/00/00	---0
+ED.COM      	  6656	0000/00/00	---0
+EXBIOS.COM  	   256	0000/00/00	---0
+KEYDEF.COM  	   768	0000/00/00	---0
+LOAD.COM    	  1792	0000/00/00	---0
+MDIR.COM    	  3072	0000/00/00	---0
+MDIR.DOC    	  1920	0000/00/00	---0
+MDM730.COM  	  2304	0000/00/00	---0
+MDM730.DOC  	  3840	0000/00/00	---0
+MOVCPM.COM  	 12544	0000/00/00	---0
+PIP.COM     	  7424	0000/00/00	---0
+REPORT.BUG  	  2176	0000/00/00	---0
+STAT.COM    	  5248	0000/00/00	---0
+SUBMIT.COM  	  1280	0000/00/00	---0
+SYSGEN.COM  	  1536	0000/00/00	---0
+XSUB.COM    	   768	0000/00/00	---0
+A operação foi concluída com êxito.
+m4cpm22232b.jv3 
+VDK-80, The TRS-80 Virtual Disk Kit v1.0
+Written by Miguel Dutra (www.mdutra.com)
+Icon by Marco Martin (www.notmart.org)
+VDI=4CJV3 (40:1:18,DD)
+  BLS RPT BSH BLM EXM DSM DRM AL0 AL1 CKS OFF SSZ SKF OPT
+ 2048  36   4  15   1  84 127  C0  00  32   2   1   1  80
+OSI=4CCPM (,,00)
+ASM.COM     	  8192	0000/00/00	---0
+CONFIG.COM  	 12928	0000/00/00	---0
+DDT.COM     	  4864	0000/00/00	---0
+DISK.FDF    	 10752	0000/00/00	---0
+DUMP.ASM    	  4352	0000/00/00	---0
+DUMP.COM    	   512	0000/00/00	---0
+DUP.COM     	  8064	0000/00/00	---0
+ED.COM      	  6656	0000/00/00	---0
+EXBIOS.COM  	   256	0000/00/00	---0
+KEYDEF.COM  	   768	0000/00/00	---0
+LOAD.COM    	  1792	0000/00/00	---0
+MDIR.COM    	  3072	0000/00/00	---0
+MDIR.DOC    	  1920	0000/00/00	---0
+MDM730.COM  	  2304	0000/00/00	---0
+MDM730.DOC  	  3840	0000/00/00	---0
+MOVCPM.COM  	 12544	0000/00/00	---0
+PIP.COM     	  7424	0000/00/00	---0
+REPORT.BUG  	  2176	0000/00/00	---0
+STAT.COM    	  5248	0000/00/00	---0
+SUBMIT.COM  	  1280	0000/00/00	---0
+SYSGEN.COM  	  1536	0000/00/00	---0
+XSUB.COM    	   768	0000/00/00	---0
+A operação foi concluída com êxito.
+m4cpm22232c.dmk 
+VDK-80, The TRS-80 Virtual Disk Kit v1.0
+Written by Miguel Dutra (www.mdutra.com)
+Icon by Marco Martin (www.notmart.org)
+VDI=4CDMK (40:1:18,DD)
+  BLS RPT BSH BLM EXM DSM DRM AL0 AL1 CKS OFF SSZ SKF OPT
+ 2048  36   4  15   1  84 127  C0  00  32   2   1   1  80
+OSI=4CCPM (,,00)
+ASM.COM     	  8192	0000/00/00	---0
+CONFIG.COM  	 12928	0000/00/00	---0
+DDT.COM     	  4864	0000/00/00	---0
+DISK.FDF    	 10752	0000/00/00	---0
+DUMP.ASM    	  4352	0000/00/00	---0
+DUMP.COM    	   512	0000/00/00	---0
+DUP.COM     	  8064	0000/00/00	---0
+ED.COM      	  6656	0000/00/00	---0
+EXBIOS.COM  	   256	0000/00/00	---0
+KEYDEF.COM  	   768	0000/00/00	---0
+LOAD.COM    	  1792	0000/00/00	---0
+MDIR.COM    	  3072	0000/00/00	---0
+MDIR.DOC    	  1920	0000/00/00	---0
+MDM730.COM  	  2304	0000/00/00	---0
+MDM730.DOC  	  3840	0000/00/00	---0
+MOVCPM.COM  	 12544	0000/00/00	---0
+PIP.COM     	  7424	0000/00/00	---0
+REPORT.BUG  	  2176	0000/00/00	---0
+STAT.COM    	  5248	0000/00/00	---0
+SUBMIT.COM  	  1280	0000/00/00	---0
+SYSGEN.COM  	  1536	0000/00/00	---0
+XSUB.COM    	   768	0000/00/00	---0
+A operação foi concluída com êxito.
+run.bat 
+VDK-80, The TRS-80 Virtual Disk Kit v1.0
+Written by Miguel Dutra (www.mdutra.com)
+Icon by Marco Martin (www.notmart.org)
+O disco não é reconhecido. Talvez não esteja formatado.
+x 
+VDK-80, The TRS-80 Virtual Disk Kit v1.0
+Written by Miguel Dutra (www.mdutra.com)
+Icon by Marco Martin (www.notmart.org)
+O disco não é reconhecido. Talvez não esteja formatado.
+y 
+VDK-80, The TRS-80 Virtual Disk Kit v1.0
+Written by Miguel Dutra (www.mdutra.com)
+Icon by Marco Martin (www.notmart.org)
+O disco não é reconhecido. Talvez não esteja formatado.

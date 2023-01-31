@@ -1,0 +1,1 @@
+.Model III Scripsit 3.2 patch.Fixes Scripsit's improper EOF.and exit to DOS..Patch courtesy of Micro-Systems Software, Inc..A=5E18H,F=30,C=18A=5EACH,F=380B,C=0000A=6603H,F=0000,C=2D40

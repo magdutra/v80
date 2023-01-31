@@ -1,0 +1,1 @@
+.This DO file is used to patch.the Model I Microsoft BASIC.compiler for use under Model III.DOSPLUS...Patch courtesy of Micro-Systems Software, Inc..APPEND BRUN/FIX BRUN/CMD (CMD)APPEND BASCOM/FIX BASCOM/CMD (CMD)PATCH L80/CMD L80/PAT

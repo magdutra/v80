@@ -1,0 +1,39 @@
+07/26/2011 - v1.0:
+
+	- Vdisk is ported from Assembler to C++ becoming the VDK-80.
+	- A directory structure check is implemented for all OSI modules.
+
+
+12/28/2011 - v1.1:
+
+	- Removed the need of external DLLs. Now libgcc_s_dw2-1.dll and libstdc++-6.dll are statically linked to the program.
+
+	- Implemented a GAT auto-fix routine in the TRSDOS_3 module. In some disks, the granules used by system files are not properly marked in the GAT.
+
+	- Released the experimental CP/M module. This module is in a very initial development stage and should be used only for testing purposes.
+
+
+01/16/2012 - v1.3:
+
+	- <Information not available yet>
+
+
+09/16/2012 - v1.4:
+
+	- Fixed a file corruption issue in the NEWDOS/80 module. If a file occupies more than one extent, the program accesses a wrong sector when crossing extents.
+
+	- Fixed a file corruption issue in the TRSDOS4 and RAPIDOS modules. If a disk is formatted as double-sided but the DOS is occupying only one side, the program incorrectly accesses sectors in the other side.
+
+	- Fixed a disk detection issue in the JV1 module. Now the program properly detects disks JV1 that contains 400, 720, 800 or 1440 sectors, ranging from 34 to 96 tracks.
+
+	- Disabled all functions in the CP/M module, except DIR. This module is still under development.
+
+
+09/16/2012 - v1.5:
+
+	- Improved the readability of the information provided by the "-x" switch. Now the Disk Interface (VDI) and the OS Interface (OSI) show module names without nonsense chars before them.
+
+02/01/2013 - v1.6:
+
+	- The "-f" switch is now also able to operate over a group of files by means of wildcards
+	- Fixed a bug in the TRSDOS3, TRSDOS4 and NEWDOS80 modules which caused less files to be found in the directory

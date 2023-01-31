@@ -1,0 +1,1 @@
+. Welcome to the sophisticated world of  VTOS 3.0!.. What you are watching is a 'CHAIN'ing operation..The following command will install new keyboard definitionsSET *KI TO KSM USING NEWUSER.. When you receive control, please depress the 'CLEAR'. and 'A' keys simultaneously....    OKAY, YOU WILL NOW RECEIVE CONTROL.....

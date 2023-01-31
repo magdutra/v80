@@ -1,0 +1,257 @@
+CP/M 2.2
+
+Para localizar as estruturas de disco (baseado no Montezuma CP/M):
+1. Ler as duas primeiras trilhas.
+2. Os primeiros bytes do setor de boot são o vetor para o cold boot ("JMP xxxx"). Pegar o endereço "xxxx".
+3. Adicionar 48 bytes ao endereço anterior. Esse endereço aponta para o System Parameter Block (SPB).
+4. Ler SPB (24 bytes). Os bytes 4 e 5 (contando de 0) são o endereço do Disk Parameter Header (DPH), relativo ao setor de boot.
+5. Cada DPH tem 16 bytes. Há DPHs para os drives A, B, C, D e M.
+6. O primeiro word da DPH aponta para uma tabela de 30 bytes de tradução do skew (intercalação de setores).
+7. O sexto word da DPH aponta para o Disk Parameter Block (DPB).
+8. O DPB (21 bytes) contém os dados para acesso ao disco.
+
+"GETSYS load CP/M starting at 3380h (the operating system actually starts 128 bytes later at 3400h)"
+"The BIOS is placed between locations 4A00h and 4FFFh"
+"The program in this sector, called BOOT, has the responsability of bringing the remaining sectors into memory starting at location 3400h + b"
+"(if no boot)...in this case, load the program from track 0, sector 2, to location 3400h + b"
+"Common values for CP/M Systems: Memory Size=64K, b=B000h"
+3400h CCP
+3C00h BDOS
+4A00h BIOS
+
+DPH = 155F68h:1564F5h EA4Bh -> 058Dh?
+
+O BDOS e o BIOS ficam num arquivo chamado CPM3.SYS, cuja entrada está no diretório.
+
+Observações de um disco da Montezuma: 
+	- O BIOS começa no 28o. setor (trilha 0, lado 1, setor 11).
+	- A DPH parece começar no offset 130 do setor 16 do lado 1, trilha 0
+	- DPBs encontradas nos setores 16 e 18, da trilha 0, lado 1
+
+
+"STAT A: DSK:" -- Para ver os parâmetros do disco
+
+
+
+
+
+Registros (setores?) de 128 bytes
+Boot (opcional) na trilha 0, setor 1 
+Todos os setores das trilhas 0 e 1 ocupados pelo sistema (há algum byte que indica o número de trilhas reservadas para o sistema)
+Até 512 extents por arquivo (por directory entry?)
+Cada drive tem uma Disk Parameter Table de 16 bytes associada a ele
+O FCB é lido do diretório em disco para uso em memória e depois é novamente gravado no disco
+Cada directory entry tem 32 bytes e é igual ao FCB exceto por:
+	- Não tem os byte 32 a 35 não existem
+	- Byte 0 é o número do usuário
+
+
+Trilha 0, setor 1: BOOT
+Trilha 0, setores 2-17: CCP
+Trilha 0, setores 18-26 + Trilha 1, setores 1-19: BDOS		(N.d.T.: disco do MDS só tem 26 setores)
+Trilha 7, setores 20-25: BIOS
+Trilha 1, setor 26: BIOS
+Trilha 2, setores 1-26: Diretório e dados
+
+===================================================================
+
+disk parameter block (DPB): Data structure referenced by one or more disk parameter headers.
+The disk parameter block defines disk characteristics in the fields listed below:
+
+
+
+RPT is the total number of records per track.			24 00	= 0024	= 36
+BSH is the data allocation block shift factor.			04
+BLM is the data allocation block mask.				0F
+EXM is the extent mask determined by BLS and DSM.		00
+DSM is the maximum data block number.				62 01	= 0162	= 354
+DRM is the maximum number of directory entries-1.		7F 00	= 007F	= 127
+AL0 reserves directory blocks.					C0
+AL1 reserves directory blocks.					00
+CKS is the number of directory sectors check summed.		20 00	= 0020	= 32
+OFF is the number of reserved system tracks.			02 00	= 0002	= 2
+
+The address of the disk parameter block is located in the disk parameter header at DPbase +
+0AH. CP/M Function 31 returns the DPB address. Drives with the same characteristics can use
+the same disk parameter header, and thus the same DPB. However, drives with different
+characteristics must each have their own disk parameter header and disk parameter blocks. When
+the BDOS calls the SELDSK entry point in the BIOS, SELDSK must return the address of the
+drive's disk parameter header in register HL.
+
+===================================================================
+
+disk parameter header (DPH): Data structure that contains information about the disk drive
+and provides a scratchpad area for certain BDOS operations. The disk parameter header contains
+six bytes of scratchpad area for the BDOS, and the following five 2-byte parameters:
+
+XLT is the sector translation table address.
+DIRBUF is the directory buffer address.
+DPB is the disk parameter block address.
+CSV is the checksum vector address.
+ALV is the allocation vector address.
+
+Given n disk drives, the disk parameter headers are arranged in a table whose first row of 16
+bytes corresponds to drive 0, with the last row corresponding to drive n - 1.
+
+===================================================================
+
+File Control Block (FCB): Structure used for accessing files on disk. Contains the drive,
+filename, filetype, and other information describing a file to be accessed or created on the disk. A
+file control block consists of 36 consecutive bytes specified by the user for file I/O functions.
+FCB can also refer to a directory element in the directory portion of the allocated disk space.
+These contain the same first 32 bytes of the FCB, but lack the current record and random record
+number bytes.
+
+
+===================================================================
+
+XLT: Logical-to-physical sector translation table located in the BIOS. SECTRAN uses XLT to
+perform logical-to-physical sector number translation. XLT also refers to the two-byte address in
+the disk parameter header at DPBASE + 0. If this parameter is zero, no sector translation takes
+place. Otherwise this parameter is the address of the translation table.
+
+===================================================================
+
+A page is defined as 256 bytes, so a page boundary always begins at an address where the loworder byte is zero.
+
+===================================================================
+
+
+
+Disk Parameter Header:
+
+XLT	WORD	?		; Address of the logical-to-physical translation vector or 0000h (número do setor relativo que contém o Disk Parameter Block do drive 0, 1, 2 ou 3)
+	WORD	?		; Scratch pad
+	WORD	?		; Scratch pad
+	WORD	?		; Scratch pad
+DIRBUF	WORD	?		; Address of a 128-byte scratch pad for directory operations within BDOS
+DPB	WORD	?		; Address of a disk parameter block for this drive
+CSV	WORD	?		; Address of a scratch pad area used for software check for changed disks
+ALV	WORD	?		; Address of a scratch pad area used by the BDOS to keep disk storage allocation information
+
+===================================================================
+
+Disk Parameter Block (DPB):
+
+SPT	WORD	?		; Sectors Per Track
+BSH	BYTE	?		; Data allocation Block Shift Factor
+BLM	BYTE	?		; Data allocation Block Mask
+EXM	BYTE	?		; Extent Mask
+DSM	WORD	?		; Total storage capacity of the disk drive
+DRM	WORD	?		; Total number of directory entries that can be stored on this drive
+AL0	BYTE	?		; Determine reserved directory blocks
+AL1	BYTE	?		; Determine reserved directory blocks
+CKS	WORD	?		; Size of the directory check vector
+OFF	WORD	?		; Number of reserved tracks at the beginning of the disk
+
+===================================================================
+
+Block Sizes:
+
+BLS	BSH	BLM
+-------------------
+ 1024	3	  7
+ 2048	4	 15
+ 4096	5	 31
+ 8192	6	 63
+16384	7	127
+
+BLS = Data allocation size
+
+===================================================================
+
+EXM Values:
+
+BLS	DSM<256	DSM>255
+-----------------------
+ 1024	0	n/a	
+ 2048	1	0
+ 4096	3	1
+ 8192	7	3
+16384	15	7
+
+DSM é o maior número que o drive suporta em blocos de dados, medido em unidades de BLS.
+
+(DSM+1) x BLS = número total de bytes que o drive mantém, dentro da capacidade física do drive, excluindo as trilhas reservadas para o sistema operacional.
+
+=====================================================================
+
+DRM é o número total de entradas no diretório menos 1.
+AL0 e AL1 formam juntos um mapa de bits de entradas reservadas no diretório.
+Os bits de high-order são setados primeiro.
+Cada entrada no diretório ocupa 32 bytes.
+O diretório ocupa um block size, de forma que:
+
+BLS	Directory Entries
+-------------------------
+ 1024	 32
+ 2048	 64
+ 4096	128
+ 8192	256
+16384	512
+
+Se o DRM = 127 (128 directory entries) e o BLS = 1024 (o que me daria 32 directory entries), eu tenho que "bloquear" o excesso de entradas por bloco ativando 4 bits (128 / 32 = 4) do mapa AL0/AL1, começando da esquerda para a direita.
+
+=====================================================================
+
+CKS
+Se a mídia é removível, CKS = (DRM + 1) / 4
+Se a mídia é fixa, CKS = 0 (nenhum registro de diretório é verificado neste caso)
+
+=====================================================================
+
+
+
+cada arquivo pode ter até 16 extents
+Cada extent contém de 0 a 128 setores
+Com setores de 128 bytes, o maior arquivo CP/M pode ter 256KB (16 extents x 128 setores x 128 bytes)
+As duas primeiras trilhas do disco são reservadas ao sistema (trilhas ou cilindros?)
+Setor de boot na trilha 0, setor 1
+
+FCB
+ET	BYTE	?		Entry Type (CP/M 1.4)   	Drive Code no CP/M 2.2
+FN	BYTE	8 dup (?)	File Name
+FT	BYTE	3 dup (?)	File Type
+EX	BYTE	?		Extension			Normalmente 0
+	BYTE	?		Reserved
+	BYTE	?		Reserved
+RC	BYTE	?		Record Count (0 a 128)		Número de extents?
+DM	BYTE	16 dup (?)	Disk Map?			Mapa de alocação de disco
+NR	BYTE	?		Next Record   			Current Record no CP/M 2.2
+RR	BYTE	?		Random Record (0-65535)		Apenas CP/M 2.2
+
+=====================================================================================
+
+To solve these problems we have collected all of the uneed to know" information into a section of
+memory called the System Parameter Block (SPB). The relative location of this block within the
+BIOS is guaranteed not to change from one version of the BIOS to the next. Further, any additions
+to it will be made to the end so that relative offsets within the SPB will be good in future versions.
+
+Location of the SPB within CP/M is very simple. It is always 48 bytes (0030H) past the Warm Boot
+vector in the BIOS. Since the address of the Warm Boot vector always follows the JMP instruction
+at memory location 0 the SPB can be found using this simple routine:
+
+LD HL,(0001H) ;Get Warm Boot vector address
+LD BC,0030H ;Set up offset to SPB
+ADD HL,BC ;HL now points to SPB
+
+============================================================================================
+
+File references consist of two parts: the primary filename and the filetype. Although the filetype
+is optional, it usually is generic. For example, the filetype ASM is used to denote that the file is
+an assembly language source file, while the primary filename distinguishes each particular source
+file. The two names are separated by a period, as shown in the following example:
+
+filename.typ
+
+In this example, filename is the primary filename of eight characters or less, and typ is the
+filetype of no more than three characters. As mentioned above, the name
+
+filename
+
+is also allowed and is equivalent to a filetype consisting of three blanks. The characters used in
+specifying an unambiguous file reference cannot contain any of the following special characters:
+
+< > . , ; : = ? * [ ] % | ( ) / \
+
+while all alphanumerics and remaining special characters are allowed.

@@ -1,0 +1,47 @@
+M3 TD 1.1 e 1.2 -> F220/TXT com 0 Recs
+M4 ED -> File access denied.
+
+m4rd15.jv3
+Um arquivo com nome e extensão em branco. Usar -rd -a.
+
+m1vt30a.dmk, m1vt30b.dmk
+BOOT.SYS, The drive cannot find the sector requested.
+Arquivo com 1280 bytes (5 setores), porém disco pula do setor 0:0:3 para 0:0:5 devido a esquema de proteção do VTOS. Ignorar.
+
+m1td23c.jv3
+Numero irregular de trilhas. Usar -c.
+
+m1md210.jv3
+Resident.sys, The drive cannot find the sector requested.
+Não existe o setor 0:0:6 no disco (Mixed Density). Não fui mais a fundo. Ignorar.
+
+m1md17Pb.dmk
+SYSRES.SYS, The drive cannot locate a specific area or track on the disk.
+
+
+40118256SD.jv1
+Disquete de dados. NewDOS/80. Diretorio em 18:0:0. Corrigir.
+Nota: Não deveria haver uma trilha padrão para o diretório no formato JV1?
+
+43118256MD.dmk
+The specified disk or diskette cannot be accessed.
+Disquete de dados. NewDOS/80. Diretorio em 05:0:08. Corrigir.
+
+80118256MD.dmk
+GET: ¶m¶m¶m¶m.6m6 -> .\¶m¶m¶m¶m.6m6	There are no more files.
+Disquete sem dados ou diretorio (so boot). Ignorar.
+
+81218256MD.dmk
+The specified disk or diskette cannot be accessed.
+Disquete de dados. DoubleDOS. Diretorio em 09:0:08. Corrigir.
+
+m1ld531b.jv1
+Numero irregular de trilhas. Acessivel com -stc. Ignorar.
+
+m1md10Da.jv3
+Varios arquivos com nome invalido. Acessivel com -sdc. Ignorar.
+
+m1md15SKd.dmk
+GAT no ultimo setor da trilha anterior. Ignorar.
+
+Sugestao geral: pensar como tratar disquetes de dados de todos os sistemas operacionais.

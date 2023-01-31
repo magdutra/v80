@@ -1,0 +1,629 @@
+# depslib dependency file v1.0
+1324348613 source:c:\users\mdutra\c++\v80\dmk.cpp
+	<windows.h>
+	<math.h>
+	"V80.h"
+	"VDI.h"
+	"DMK.h"
+
+1301846731 c:\users\mdutra\c++\v80\vdi.h
+
+1300435522 c:\users\mdutra\c++\v80\dmk.h
+
+1324348619 source:c:\users\mdutra\c++\v80\jv1.cpp
+	<windows.h>
+	"V80.h"
+	"VDI.h"
+	"JV1.h"
+
+1300377133 c:\users\mdutra\c++\v80\jv1.h
+
+1324348625 source:c:\users\mdutra\c++\v80\jv3.cpp
+	<windows.h>
+	"V80.h"
+	"VDI.h"
+	"JV3.h"
+
+1300394517 c:\users\mdutra\c++\v80\jv3.h
+
+1301846815 source:c:\users\mdutra\c++\v80\osi.cpp
+	<windows.h>
+	"V80.h"
+	"VDI.h"
+	"OSI.h"
+
+1309133752 c:\users\mdutra\c++\v80\osi.h
+
+1301847557 source:c:\users\mdutra\c++\v80\vdi.cpp
+	<windows.h>
+	"V80.h"
+	"VDI.h"
+
+1301759817 source:c:\users\mdutra\c++\v80\cli.cpp
+	<windows.h>
+	"VDI.h"
+	"OSI.h"
+	"CLI.h"
+
+1309133753 c:\users\mdutra\c++\v80\td4.h
+
+1324348652 source:c:\users\mdutra\c++\v80\td4.cpp
+	<windows.h>
+	"V80.h"
+	"VDI.h"
+	"OSI.h"
+	"TD4.h"
+
+1324348585 c:\users\mdutra\c++\v80\v80.h
+
+1324348631 source:c:\users\mdutra\c++\v80\nd.cpp
+	<windows.h>
+	"V80.h"
+	"VDI.h"
+	"OSI.h"
+	"ND.h"
+
+1309133751 c:\users\mdutra\c++\v80\nd.h
+
+1324346766 source:c:\users\mdutra\c++\v80\v80.cpp
+	<cctype>
+	<typeinfo>
+	<windows.h>
+	<stdio.h>
+	"V80.h"
+	"VDI.h"
+	"JV1.h"
+	"JV3.h"
+	"DMK.h"
+	"OSI.h"
+	"TD4.h"
+	"TD3.h"
+	"TD1.h"
+	"RD.h"
+	"MD.h"
+	"ND.h"
+	"DD.h"
+	"CPM.h"
+
+1300641374 c:\users\mdutra\c++\v80\v80.cpp
+	<windows.h>
+	<stdio.h>
+	"V80.h"
+	"VDI.h"
+	"JV1.h"
+	"JV3.h"
+	"DMK.h"
+	"OSI.h"
+	"TD4.h"
+	"ND.h"
+
+1324348647 source:c:\users\mdutra\c++\v80\td3.cpp
+	<windows.h>
+	"V80.h"
+	"VDI.h"
+	"OSI.h"
+	"TD4.h"
+	"TD3.h"
+
+1324340898 c:\users\mdutra\c++\v80\td3.h
+
+1324348642 source:c:\users\mdutra\c++\v80\td1.cpp
+	<windows.h>
+	"V80.h"
+	"VDI.h"
+	"OSI.h"
+	"TD4.h"
+	"TD1.h"
+
+1309133752 c:\users\mdutra\c++\v80\td1.h
+
+1324348638 source:c:\users\mdutra\c++\v80\rd.cpp
+	<windows.h>
+	"V80.h"
+	"VDI.h"
+	"OSI.h"
+	"TD4.h"
+	"RD.h"
+
+1309133752 c:\users\mdutra\c++\v80\rd.h
+
+1324348605 source:c:\users\mdutra\c++\v80\dd.cpp
+	<windows.h>
+	"V80.h"
+	"VDI.h"
+	"OSI.h"
+	"ND.h"
+	"DD.h"
+
+1309133751 c:\users\mdutra\c++\v80\dd.h
+
+1311690686 source:c:\users\mdutra\c++\v80\v80.rc
+	<windows.h>
+	<commctrl.h>
+	<richedit.h>
+	"resource.h"
+
+1311690686 c:\users\mdutra\c++\v80\resource.h
+
+1301759957 c:\users\mdutra\c++\v80\cli.h
+
+1324348592 source:c:\users\mdutra\c++\v80\cpm.cpp
+	<windows.h>
+	<math.h>
+	<stdio.h>
+	"V80.h"
+	"VDI.h"
+	"OSI.h"
+	"CPM.h"
+
+1312696333 c:\users\mdutra\c++\v80\cpm.h
+
+1324261415 source:c:\users\mdutra\c++\v80\md.cpp
+	<windows.h>
+	"V80.h"
+	"VDI.h"
+	"OSI.h"
+	"MD.h"
+
+1309139508 c:\users\mdutra\c++\v80\md.h
+
+1324348592 source:c:\users\mdutra\my projects\c++\v80\cpm.cpp
+	<windows.h>
+	<math.h>
+	<stdio.h>
+	"V80.h"
+	"VDI.h"
+	"OSI.h"
+	"CPM.h"
+
+1324348585 c:\users\mdutra\my projects\c++\v80\v80.h
+
+1301846731 c:\users\mdutra\my projects\c++\v80\vdi.h
+
+1309133752 c:\users\mdutra\my projects\c++\v80\osi.h
+
+1312696333 c:\users\mdutra\my projects\c++\v80\cpm.h
+
+1324348605 source:c:\users\mdutra\my projects\c++\v80\dd.cpp
+	<windows.h>
+	"V80.h"
+	"VDI.h"
+	"OSI.h"
+	"ND.h"
+	"DD.h"
+
+1309133751 c:\users\mdutra\my projects\c++\v80\nd.h
+
+1309133751 c:\users\mdutra\my projects\c++\v80\dd.h
+
+1324348613 source:c:\users\mdutra\my projects\c++\v80\dmk.cpp
+	<windows.h>
+	<math.h>
+	"V80.h"
+	"VDI.h"
+	"DMK.h"
+
+1300435522 c:\users\mdutra\my projects\c++\v80\dmk.h
+
+1324348619 source:c:\users\mdutra\my projects\c++\v80\jv1.cpp
+	<windows.h>
+	"V80.h"
+	"VDI.h"
+	"JV1.h"
+
+1300377133 c:\users\mdutra\my projects\c++\v80\jv1.h
+
+1324348625 source:c:\users\mdutra\my projects\c++\v80\jv3.cpp
+	<windows.h>
+	"V80.h"
+	"VDI.h"
+	"JV3.h"
+
+1300394517 c:\users\mdutra\my projects\c++\v80\jv3.h
+
+1324954153 source:c:\users\mdutra\my projects\c++\v80\md.cpp
+	<windows.h>
+	"V80.h"
+	"VDI.h"
+	"OSI.h"
+	"MD.h"
+
+1309139508 c:\users\mdutra\my projects\c++\v80\md.h
+
+1324954153 source:c:\users\mdutra\my projects\c++\v80\nd.cpp
+	<windows.h>
+	"V80.h"
+	"VDI.h"
+	"OSI.h"
+	"ND.h"
+
+1301846815 source:c:\users\mdutra\my projects\c++\v80\osi.cpp
+	<windows.h>
+	"V80.h"
+	"VDI.h"
+	"OSI.h"
+
+1324954153 source:c:\users\mdutra\my projects\c++\v80\rd.cpp
+	<windows.h>
+	"V80.h"
+	"VDI.h"
+	"OSI.h"
+	"TD4.h"
+	"RD.h"
+
+1309133753 c:\users\mdutra\my projects\c++\v80\td4.h
+
+1309133752 c:\users\mdutra\my projects\c++\v80\rd.h
+
+1324954153 source:c:\users\mdutra\my projects\c++\v80\td1.cpp
+	<windows.h>
+	"V80.h"
+	"VDI.h"
+	"OSI.h"
+	"TD4.h"
+	"TD1.h"
+
+1309133752 c:\users\mdutra\my projects\c++\v80\td1.h
+
+1324954153 source:c:\users\mdutra\my projects\c++\v80\td3.cpp
+	<windows.h>
+	"V80.h"
+	"VDI.h"
+	"OSI.h"
+	"TD4.h"
+	"TD3.h"
+
+1324340898 c:\users\mdutra\my projects\c++\v80\td3.h
+
+1324954138 source:c:\users\mdutra\my projects\c++\v80\td4.cpp
+	<windows.h>
+	"V80.h"
+	"VDI.h"
+	"OSI.h"
+	"TD4.h"
+
+1324349678 source:c:\users\mdutra\my projects\c++\v80\v80.cpp
+	<cctype>
+	<typeinfo>
+	<windows.h>
+	<stdio.h>
+	"V80.h"
+	"VDI.h"
+	"JV1.h"
+	"JV3.h"
+	"DMK.h"
+	"OSI.h"
+	"TD4.h"
+	"TD3.h"
+	"TD1.h"
+	"RD.h"
+	"MD.h"
+	"ND.h"
+	"DD.h"
+	"CPM.h"
+
+1311690686 source:c:\users\mdutra\my projects\c++\v80\v80.rc
+	<windows.h>
+	<commctrl.h>
+	<richedit.h>
+	"resource.h"
+
+1311690686 c:\users\mdutra\my projects\c++\v80\resource.h
+
+1301847557 source:c:\users\mdutra\my projects\c++\v80\vdi.cpp
+	<windows.h>
+	"V80.h"
+	"VDI.h"
+
+1347811221 source:c:\users\mdutra\projects\c++\v80\cpm.cpp
+	<windows.h>
+	<math.h>
+	<stdio.h>
+	"V80.h"
+	"VDI.h"
+	"OSI.h"
+	"CPM.h"
+
+1347774940 c:\users\mdutra\projects\c++\v80\v80.h
+
+1301846731 c:\users\mdutra\projects\c++\v80\vdi.h
+
+1326534289 c:\users\mdutra\projects\c++\v80\osi.h
+
+1326534274 c:\users\mdutra\projects\c++\v80\cpm.h
+
+1347776666 source:c:\users\mdutra\projects\c++\v80\dd.cpp
+	<windows.h>
+	<stdio.h>
+	"V80.h"
+	"VDI.h"
+	"OSI.h"
+	"ND.h"
+	"DD.h"
+
+1326594171 c:\users\mdutra\projects\c++\v80\nd.h
+
+1309133751 c:\users\mdutra\projects\c++\v80\dd.h
+
+1326607591 source:c:\users\mdutra\projects\c++\v80\dmk.cpp
+	<windows.h>
+	<math.h>
+	"V80.h"
+	"VDI.h"
+	"DMK.h"
+
+1300435522 c:\users\mdutra\projects\c++\v80\dmk.h
+
+1347811400 source:c:\users\mdutra\projects\c++\v80\jv1.cpp
+	<windows.h>
+	"V80.h"
+	"VDI.h"
+	"JV1.h"
+
+1300377133 c:\users\mdutra\projects\c++\v80\jv1.h
+
+1325667530 source:c:\users\mdutra\projects\c++\v80\jv3.cpp
+	<windows.h>
+	"V80.h"
+	"VDI.h"
+	"JV3.h"
+
+1300394517 c:\users\mdutra\projects\c++\v80\jv3.h
+
+1347776683 source:c:\users\mdutra\projects\c++\v80\md.cpp
+	<windows.h>
+	"V80.h"
+	"VDI.h"
+	"OSI.h"
+	"MD.h"
+
+1326534275 c:\users\mdutra\projects\c++\v80\md.h
+
+1359760780 source:c:\users\mdutra\projects\c++\v80\nd.cpp
+	<windows.h>
+	<stdio.h>
+	"V80.h"
+	"VDI.h"
+	"OSI.h"
+	"ND.h"
+
+1301846815 source:c:\users\mdutra\projects\c++\v80\osi.cpp
+	<windows.h>
+	"V80.h"
+	"VDI.h"
+	"OSI.h"
+
+1347776527 source:c:\users\mdutra\projects\c++\v80\rd.cpp
+	<windows.h>
+	"V80.h"
+	"VDI.h"
+	"OSI.h"
+	"TD4.h"
+	"RD.h"
+
+1326534275 c:\users\mdutra\projects\c++\v80\td4.h
+
+1309133752 c:\users\mdutra\projects\c++\v80\rd.h
+
+1347776528 source:c:\users\mdutra\projects\c++\v80\td1.cpp
+	<windows.h>
+	"V80.h"
+	"VDI.h"
+	"OSI.h"
+	"TD4.h"
+	"TD1.h"
+
+1309133752 c:\users\mdutra\projects\c++\v80\td1.h
+
+1359764393 source:c:\users\mdutra\projects\c++\v80\td3.cpp
+	<windows.h>
+	<stdio.h>
+	"V80.h"
+	"VDI.h"
+	"OSI.h"
+	"TD4.h"
+	"TD3.h"
+
+1359762802 c:\users\mdutra\projects\c++\v80\td3.h
+
+1359760772 source:c:\users\mdutra\projects\c++\v80\td4.cpp
+	<windows.h>
+	"V80.h"
+	"VDI.h"
+	"OSI.h"
+	"TD4.h"
+
+1349748797 source:c:\users\mdutra\projects\c++\v80\v80.cpp
+	<cctype>
+	<typeinfo>
+	<windows.h>
+	<stdio.h>
+	"V80.h"
+	"VDI.h"
+	"JV1.h"
+	"JV3.h"
+	"DMK.h"
+	"OSI.h"
+	"TD4.h"
+	"TD3.h"
+	"TD1.h"
+	"RD.h"
+	"MD.h"
+	"ND.h"
+	"DD.h"
+	"CPM.h"
+
+1359715635 source:c:\users\mdutra\projects\c++\v80\v80.rc
+	<windows.h>
+	<commctrl.h>
+	<richedit.h>
+	"resource.h"
+
+1359715635 c:\users\mdutra\projects\c++\v80\resource.h
+
+1301847557 source:c:\users\mdutra\projects\c++\v80\vdi.cpp
+	<windows.h>
+	"V80.h"
+	"VDI.h"
+
+1347807621 source:c:\users\mdutra\documents\code\c++\v80\cpm.cpp
+	<windows.h>
+	<math.h>
+	<stdio.h>
+	"V80.h"
+	"VDI.h"
+	"OSI.h"
+	"CPM.h"
+
+1347771340 c:\users\mdutra\documents\code\c++\v80\v80.h
+
+1301843131 c:\users\mdutra\documents\code\c++\v80\vdi.h
+
+1326530689 c:\users\mdutra\documents\code\c++\v80\osi.h
+
+1326530674 c:\users\mdutra\documents\code\c++\v80\cpm.h
+
+1347773066 source:c:\users\mdutra\documents\code\c++\v80\dd.cpp
+	<windows.h>
+	<stdio.h>
+	"V80.h"
+	"VDI.h"
+	"OSI.h"
+	"ND.h"
+	"DD.h"
+
+1326590571 c:\users\mdutra\documents\code\c++\v80\nd.h
+
+1309130151 c:\users\mdutra\documents\code\c++\v80\dd.h
+
+1326603991 source:c:\users\mdutra\documents\code\c++\v80\dmk.cpp
+	<windows.h>
+	<math.h>
+	"V80.h"
+	"VDI.h"
+	"DMK.h"
+
+1300431922 c:\users\mdutra\documents\code\c++\v80\dmk.h
+
+1347807800 source:c:\users\mdutra\documents\code\c++\v80\jv1.cpp
+	<windows.h>
+	"V80.h"
+	"VDI.h"
+	"JV1.h"
+
+1300373533 c:\users\mdutra\documents\code\c++\v80\jv1.h
+
+1325663930 source:c:\users\mdutra\documents\code\c++\v80\jv3.cpp
+	<windows.h>
+	"V80.h"
+	"VDI.h"
+	"JV3.h"
+
+1300390917 c:\users\mdutra\documents\code\c++\v80\jv3.h
+
+1347773083 source:c:\users\mdutra\documents\code\c++\v80\md.cpp
+	<windows.h>
+	"V80.h"
+	"VDI.h"
+	"OSI.h"
+	"MD.h"
+
+1326530675 c:\users\mdutra\documents\code\c++\v80\md.h
+
+1359757180 source:c:\users\mdutra\documents\code\c++\v80\nd.cpp
+	<windows.h>
+	<stdio.h>
+	"V80.h"
+	"VDI.h"
+	"OSI.h"
+	"ND.h"
+
+1301843215 source:c:\users\mdutra\documents\code\c++\v80\osi.cpp
+	<windows.h>
+	"V80.h"
+	"VDI.h"
+	"OSI.h"
+
+1458797832 source:c:\users\mdutra\documents\code\c++\v80\rd.cpp
+	<windows.h>
+	"V80.h"
+	"VDI.h"
+	"OSI.h"
+	"TD4.h"
+	"RD.h"
+
+1458795681 c:\users\mdutra\documents\code\c++\v80\td4.h
+
+1309130152 c:\users\mdutra\documents\code\c++\v80\rd.h
+
+1458797691 source:c:\users\mdutra\documents\code\c++\v80\td1.cpp
+	<windows.h>
+	"V80.h"
+	"VDI.h"
+	"OSI.h"
+	"TD4.h"
+	"TD1.h"
+
+1309130152 c:\users\mdutra\documents\code\c++\v80\td1.h
+
+1458797654 source:c:\users\mdutra\documents\code\c++\v80\td3.cpp
+	<windows.h>
+	<stdio.h>
+	"V80.h"
+	"VDI.h"
+	"OSI.h"
+	"TD4.h"
+	"TD3.h"
+
+1359759202 c:\users\mdutra\documents\code\c++\v80\td3.h
+
+1458800194 source:c:\users\mdutra\documents\code\c++\v80\td4.cpp
+	<windows.h>
+	"V80.h"
+	"VDI.h"
+	"OSI.h"
+	"TD4.h"
+
+1458782305 source:c:\users\mdutra\documents\code\c++\v80\v80.cpp
+	<cctype>
+	<typeinfo>
+	<windows.h>
+	<stdio.h>
+	"V80.h"
+	"VDI.h"
+	"JV1.h"
+	"JV3.h"
+	"DMK.h"
+	"OSI.h"
+	"TD4.h"
+	"TD3.h"
+	"TD1.h"
+	"RD.h"
+	"MD.h"
+	"ND.h"
+	"DD.h"
+	"CPM.h"
+
+1359761536 source:c:\users\mdutra\documents\code\c++\v80\v80.rc
+	<windows.h>
+	<commctrl.h>
+	<richedit.h>
+	"resource.h"
+
+1359761536 c:\users\mdutra\documents\code\c++\v80\resource.h
+
+1301843957 source:c:\users\mdutra\documents\code\c++\v80\vdi.cpp
+	<windows.h>
+	"V80.h"
+	"VDI.h"
+
+1458782350 source:c:\users\mdutra\documents\code\c++\v80\ld.cpp
+	<windows.h>
+	"V80.h"
+	"VDI.h"
+	"OSI.h"
+	"TD4.h"
+	"LD.h"
+
+1458782201 c:\users\mdutra\documents\code\c++\v80\ld.h
+

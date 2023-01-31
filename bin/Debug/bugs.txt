@@ -1,0 +1,2 @@
+- O módulo TD3 está preparado para reconhecer entradas de diretório com 48 bytes cada uma, porém algumas versões identificadas por este módulo (ex: m1td27a.dmk) tem entradas com 32 bytes. Há alguma forma de identificar o tamanho das entradas em algum lugar na estrutura do disco?
+

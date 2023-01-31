@@ -1,0 +1,1 @@
+.JCL to update a TRSDOS 6.2.x+ system diskette at the year 2000. Insert the TRSDOS 6.2.x+ system diskette in drive #d#. Insert the SIX2XTND diskette in drive #s#PATCH:#d# SYS0/SYS.LSIDOS:#d# SYS02000/FIXPATCH:#d# SYS7/SYS.LSIDOS:#d# SYS72000/FIX. Remove the diskette from drive #d# and add "2000" to the label//EXIT

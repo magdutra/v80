@@ -1,0 +1,1 @@
+.This patch allows the L80/CMD.module of the Microsoft BASIC.compiler to function under Model III.DOSPLUS...To use, type: PATCH L80/CMD L80/PAT..Patches courtesy of Micro-Systems Software, Inc..A=5228H,F=4940,C=1144A=5208H,F=1343,C=AE42A=5211H,F=1343,C=AE42A=58F9H,F=1343,C=AE42A=5205H,F=1543,C=B042A=58F3H,F=1543,C=B042

@@ -1,0 +1,8 @@
+.This patch modifies Model I.DOSPLUS 3.5 for use with the.Radio Shack Double Density.modification...To use, type: DO RS.DISKZAP
+
+
+
+
+
+0M
+											80	EEOPATCH SYS0/SYS.SYS:0A=48A0H,F=FF,C=80A=48A8H,F=FE,C=A0A=48A9H,F=CDBE48,C=32EE37A=48ADH,F=00,C=E0PATCH SYS1/SYS.SYS:0A=50F9H,F=3EFE32EC37,C=3EA032EE37

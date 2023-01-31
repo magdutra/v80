@@ -1,0 +1,1 @@
+.Patch TRSDOS 6.2.x sys0/sys to change date for year 2000D0D,55=32 33 00 C6 64 4FF0D,55=C6 00 12 4F 00 00D0D,86=00F0D,86=71D0E,1B=21 D0 07F0E,1B=21 6C 07.End of patch

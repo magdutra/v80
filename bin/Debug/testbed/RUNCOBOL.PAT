@@ -1,0 +1,1 @@
+.This patch allows Radio Shack's.Ryan-MacFarland COBOL compiler.runtime module to operate.correctly under Model III DOSPLUS...To use, type: PATCH RUNCOBOL/CMD RUNCOBOL/PAT..Patches courtesy of Micro-Systems Software, Inc..A=9B38H,F=28,C=18
